@@ -1,0 +1,25 @@
+<!-- Sponsors -->
+<section class="patrocinadoras white">
+  <header class="heading major">
+    <h2>GRANDES PARCEIROS QUE FIZERAM A AGILE BRAZIL 2023 ACONTECER</h2>
+    <p>Conheça as empresas que apoiam a Agile Brazil</p>
+  </header>
+
+  {% for cota in site.cotas %}
+  <div class="sessao-palestrantes">
+    <div class="cota">
+      <h3 class="patrocinadoras" style="text-align: center;">Patrocínio {{cota}}</h3>
+    </div>
+    <div class="sponsorsInLevel {{cota}}">
+      <div class="empresas">
+        {% assign levelSponsors = site.data.sponsors | where: "level", cota %}
+        {% for sponsor in levelSponsors %}
+          <a href="{{sponsor.url}}" target="_blank">
+            <img class="{{sponsor.level}} {{sponsor.name}}" src="{{sponsor.logo-white | prepend: site.baseurl_root }}" alt="{{sponsor.name}}">
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endfor %} 
+</section>

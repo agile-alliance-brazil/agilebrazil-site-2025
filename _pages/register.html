@@ -1,0 +1,78 @@
+---
+title: nav.registrations
+namespace: registrations
+permalink: /inscricoes
+permalink_en: /registrations
+---
+{% assign now = "now" | date: "%Y-%m-%d" %}
+
+<section id="banner">
+  <div class="inner">
+    <header>
+      <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl_root }}" alt="{{ site.title }}" />
+
+    </header>
+    <div>
+      <p class="conference-dates">{% t conference.dates %}</p>
+      <p class="conference-city">{% t conference.city %} - {% t conference.state %}</p>
+      <p class="purchase-early">{% t texts.purchase_your_registration_early %}</p>
+      <a href="{{ site.sistemas.inscricoes  }}" target="_blank" class="button large primary">{% t actions.register %}</a>
+    </div>
+  </div>
+</section>
+
+<div id="main" class="wrapper style1">
+  <div class="inner registration">
+    <header style="text-align: center;">
+      <a href="{{ site.sistemas.inscricoes  }}" target="_blank" class="button large primary">{% t actions.register %}</a>
+    </header>
+    </div>
+    </div>
+
+<!-- <div id="main" class="wrapper">
+  <div class="inner registration">
+    <header class="heading major">
+      <h1>Inscrições</h1>
+      <p>Garanta seu ingresso</p>
+    </header>
+
+    <h1>Ingressos e faixas de preço</h1>
+
+
+    <section id="registrations-closed">
+      <h2>Ingressos esgotados!</h2>
+      <p>As inscrições para a edição de 2022 já estão esgotadas, esperamos ver você no ano que vem.</p>
+      <p></p>
+    </section>
+
+    <div class="row gtr-50 gtr-uniform">
+    {% for ticket in site.data.register %}
+      {% if ticket.current %}
+        {% if ticket.token %}
+          <a class="rate current" href="{{ site.sistemas.inscricoes }}/events/80/attendances/new?registration_token={{ticket.token}}">
+        {% else %}
+          <a class="rate current" href="{{ site.sistemas.inscricoes }}" target="_blank">
+        {% endif %}
+      {% else %}
+        <div class="rate">
+      {% endif %}
+          <h3>{{ticket.name}}</h3>
+          <p>Até {{ticket.end | date: "%d/%m/%Y"}} ou {{ticket.amount}} unidades.</p>
+          <p class="price">R${{ticket.price}}</p>
+      {% if ticket.current %}
+        </a>
+      {% else %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    <h2 id="faq">Perguntas frequentes</h2>
+    <dl>
+      {% for faq in site.data.faq %}
+      <dt>{{faq.question}}</dt>
+      <dd>{{faq.answer}}</dd>
+      {% endfor %}
+    </dl>
+  </div>
+</div> -->

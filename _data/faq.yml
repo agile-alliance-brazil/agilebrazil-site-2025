@@ -1,0 +1,211 @@
+- question: 1. Como pessoa palestrante poderei usar o meu notebook para apresentar?
+  answer: Não, a apresentação final  deve estar na da pasta do <i>Google Drive</i> até a noite anterior da sua palestra. O computador será da organização do evento e terá alguém do evento colocando as apresentações conforme a grade. Mantenha o nome do arquivo com o nome da sua palestra.
+  session: faq-speakers
+
+- question: 2. Preciso levar meu notebook no dia do evento?
+  answer: Se estiver tudo certo com a sua apresentação no <i>Google Drive</i>, não tem necessidade de levar.
+  session: faq-speakers
+
+- question: 3. Sou pessoa palestrante e tenho vídeo para apresentar na minha palestra, como devo fazer?
+  answer: Faça o upload desse vídeo (modo <i>offline</i>) na pasta do <i>Google Drive</i> que disponibilizamos para colocar o material da sua palestra. Garanta e teste que o seu <i>slide</i> está <i>linkado</i> e abrindo o video da pasta do <i>Google Drive</i>. Para validar se vai funcionar o arquivo offline basta executar o slide e o arquivo a partir do <i>Google Drive</i>. Também sugerimos que, no dia do evento, procure alguém da organização nos intervalos das palestras ou no horário do almoço para fazer um teste dos seus <i>slides</i> abrindo esse vídeo.
+  session: faq-speakers
+
+- question: 4. Quero apresentar um vídeo com áudio/ música, eu consigo?
+  answer: Sim, mas no modo <i>offiline</i>. Faça upload desse arquivo na pasta do <i>Google Drive</i> que disponibilizamos para colocar a palestra. Garanta e teste que o seu slide está <i>linkado</i> e abrindo o arquivo da pasta do Google Drive. Para validar se vai  funcionar o <i>slide</i> e arquivo <i>offline</i> basta executar o arquivo a partir do <i>Google Drive</i>. Também sugerimos que, no dia do evento, procure alguém da organização nos intervalos das palestras ou no horário do almoço para fazer um teste dos seus <i>slides</i> abrindo esse arquivo.
+  session: faq-speakers
+
+- question: 5. Vou poder abrir uma página na internet ou link online na minha palestra? 
+  answer: Não, não vamos ter internet, tudo precisa ser feito <i>offline</i> na pasta do <i>Google Drive</i>. A dica para validar se vai  funcionar o <i>slide</i> e arquivo <i>offline</i> é rodar a partir do <i>Google Drive</i>.
+  session: faq-speakers
+
+- question: 6. Como tenho certeza que minha apresentação vai funcionar? Qual formato de apresentação devo usar?
+  answer: As apresentações precisam abrir no <i>Google Apresentações</i> (<i>Google Slides</i>) ou <i>Powerpoint</i>. Qualquer outro formato tem risco de não funcionar. Não leve nada específico, por exemplo uma apresentação em fomato que só roda em <i>MacBook (Apple)</i>, pois tem risco de não funcionar. A dica para validar que vai funcionar é abrir e validar sua apresentação a partir do Google Drive.
+  session: faq-speakers
+
+- question: 7. Até quando vou poder mudar minha apresentação na pasta do <i>Google Drive</i>?
+  answer: Recomendamos mexer no máximo até o dia anterior da sua apresentação.
+  session: faq-speakers
+
+- question: 8. Quem vai passar os <i>slides</i> da minha apresentação?
+  answer: Você mesma(o), pois disponibilizamos um passador de <i>slides</i> no dia do evento.
+  session: faq-speakers
+
+- question: 9. O passador de slide vai ter <i>led</i> (luz vermelha)? 
+  answer: Sim, você vai poder avançar e voltar <i>slides</i> e também utilizar a luz de indicação vermelha.
+  session: faq-speakers
+
+- question: 10. Vai ter uma segunda tela para a pessoa palestrante ver a tela de apresentador (aquela que aparece os comentários de cada <i>slide</i> e o próximo <i>slide</i>)?
+  answer: Não haverá segunda tela para visualização de tela de apresentador.
+  session: faq-speakers
+
+- question: 11. Vai ter um <i>timer</i> (temporizador) para saber quanto tempo falta para acabar a palestra?
+  answer: Algumas salas poderão ter cronômetro na frente do palco e outras terão o tempo gerenciado pela equipe do tático do Agile Brazil, que mostrarão a placa quando faltar 15, 10, 5 e 1 minuto.
+  session: faq-speakers
+
+- question: 12. Terei tempo a mais para perguntas e respostas?
+  answer: Não. Nas palestras de 30 e 50 minutos você já deve considerar o tempo para sua apresentação e para responder perguntas. Caso não dê tempo para as perguntas, você pode conversar com as pessoas nos corredores e nos <i>open spaces</i> (espaços para socialização e discussão de temas). É até legal incentivar as pessoas a te procurarem no evento após sua apresentação.
+  session: faq-speakers
+
+- question: 13. Qual a quantidade máxima de pessoas nas salas de palestras?
+  answer: No auditório há espaço para 555 pessoas; na sala Palestra 1 a capacidade máxima é de, aproximadamente, 220 pessoas; nas salas Palestra 2 e Palestra 3 a capacidade máxima é de, aproximadamente, 125 pessoas (cada sala).
+  session: faq-speakers
+
+- question: 14. Qual é minha sala, dia e horário da palestra? Onde consulto essa informação?
+  answer: Você pode consultar o dia e horário da sua palestra na nossa grade pelo site <a href="http://www.agilebrazil.com/2025/programa">http://www.agilebrazil.com/2025/programa</a> ou pelo <a target="_blank" href="https://api.whatsapp.com/send/?phone=5511916443750&text&type=phone_number&app_absent=0"><i>bot</i> do whatsapp(+55 11 91644-3750)</a>, para que você possa consultar as salas e horários mais atualizados, visto que podemos ter mudanças, devido a imprevistos. 
+  session: faq-speakers
+
+- question: 15. Posso usar a camisa da empresa na minha palestra?
+  answer: Sim, sem problemas.
+  session: faq-speakers
+
+- question: 16. Posso divulgar vagas da minha empresa?
+  answer: Sim, deve! Teremos um painel de vagas no evento, onde você pode divulgar essas oportunidades.
+  session: faq-speakers
+
+- question: 17. Tem algum grupo de whatsapp para me comunicar com vocês antes do evento e tirar outras dúvidas?
+  answer: Por enquanto pode nos procurar pelo e-mail <a href="mailto:programa@agilebrazil.com">programa@agilebrazil.com</a> ou pelo <a target="_blank" href="https://api.whatsapp.com/send/?phone=5511916443750&text&type=phone_number&app_absent=0"><i>bot</i> do whatsapp(+55 11 91644-3750)</a>
+  session: faq-speakers
+
+- question: 1. No <i>workshop</i> vou poder usar o <i>notebook</i> próprio para apresentar?
+  answer: Sim, mas sem acesso à <i>internet</i>! Você pode rotear sua <i>internet</i> para usar, mas recomendamos você pensar em um plano B para não precisar de <i>internet</i>. Você também tem a opção de usar o computador do evento (sem <i>internet</i>).
+  session: faq-workshop
+
+- question: 2. No <i>workshop</i>, posso colocar alguma coisa na parede, por exemplo, folha A0, impressões, etc.?
+  answer: Pode sim, desde que seja com fita que não danifique a parede. Se precisar de ajuda pode acionar alguém do Comitê Tático (voluntários) no dia do evento. Você também é responsável por tirar tudo das paredes, assim que seu <i>workshop</i> for concluído, se responsabilizando por qualquer dano, e assumindo o compromisso de não pode impactar o horário do próximo <i>workshop</i>.
+  session: faq-workshop
+
+- question: 3. No <i>workshop</i>, vou precisar preparar a sala, mudar mesas de lugar e/ou montar algo, posso?
+  answer: Pode sim. Se precisar de ajuda pode acionar alguém do Comitê Tático (voluntários) no dia do evento. Você é responsável por deixar a sala como encontrou e não pode impactar o horário do próximo <i>workshop</i>.
+  session: faq-workshop
+
+- question: 4. Para <i>workshop</i>, vai ter flipchart? Se sim, quantos?
+  answer: Sim. Serão disponibilizados 4 <i>flipcharts</i> em cada sala de <i>workshop</i>.
+  session: faq-workshop
+
+- question: 5. No <i>workshop</i>, quais materiais terei disponíveis para uso? 
+  answer: Não disponibilizamos materiais para <i>workshop</i>. Apenas os flipcharts e algumas canetas piloto. Qualquer material específico, inclusive <i>post-its</i>, canetas, etc. devem ser levados pela pessoa que irá facilitar o <i>workshop</i>.
+  session: faq-workshop
+
+- question: 6. Como vai ser a inscrição para pessoas que queiram participar do meu <i>workshop</i>?
+  answer: Serão entregues fichas no balcão de credenciamento. Pela manhã entregaremos as fichas dos <i>workshops</i> da manhã e na volta do almoço entregaremos as fichas dos <i>workshops</i> da tarde.
+  session: faq-workshop
+
+- question: 7. Esqueci de imprimir uma folha, vou conseguir imprimir no evento?
+  answer: Não, não teremos impressora disponível lá. Recomendamos que você faça uma lista de tudo o que precisa e revise antes de ir para o evento, assim evita de esquecer alguma coisa.
+  session: faq-workshop
+
+- question: 8. Vou poder abrir uma página na internet ou link online no meu <i>workshop</i>? 
+  answer: No computador do evento não. Tudo precisa ser feito <i>offline</i>, pois não teremos internet, no entanto, como é um <i>workshop</i> você tem a opção de usar seu próprio <i>notebook</i>, assim você poderá rotear sua <i>internet</i> (3g, 4g ou 5g) para usar, mas recomendamos ter um plano B <i>offline</i>.
+  session: faq-workshop
+
+- question: 9. Qual a quantidade máxima de pessoas nas salas de <i>workshops</i>?
+  answer: Os <i>workshops</i> têm a capacidade máxima de, aproximadamente, 125 pessoas. Mas você deve respeitar no mínimo de pessoas que você informou no momento da submissão do <i>workshop</i>.
+  session: faq-workshop
+
+- question: 10. Qual a quantidade de mesas no <i>workshop</i>? Quantas cadeiras por mesa?
+  answer: Ainda vamos confirmar quantas mesas caberão por sala,mas cada mesa vai ter 8 cadeiras. Você também pode juntar mesas ou deixar mais ou menos cadeiras por mesa, vai de acordo com o seu <i>workshop</i>. Lembrando que no final do seu <i>workshop</i> e antes do próximo, você precisa deixar a sala como encontrou.
+  session: faq-workshop
+
+- question: 11. Qual é minha sala, dia  e horário do meu <i>workshop</i>? Onde posso consultar essa informação?
+  answer: Você pode consultar o dia e horário na nossa grade pelo site <a href="http://www.agilebrazil.com/2025/programa">http://www.agilebrazil.com/2025/programa</a> ou pelo <a target="_blank" href="https://api.whatsapp.com/send/?phone=5511916443750&text&type=phone_number&app_absent=0"><i>bot</i> do whatsapp(+55 11 91644-3750)</a>, para que você possa consultar as salas e horários mais atualizados, visto que podemos ter mudanças, devido a imprevistos.
+  session: faq-workshop
+
+- question: 12. Posso usar a camisa da empresa no meu workshop?
+  answer: Sim, sem problemas.
+  session: faq-workshop
+
+- question: 13. Posso divulgar vagas da minha empresa?
+  answer: Sim, deve! Teremos um painel de vagas no evento, onde você pode divulgar essas oportunidades.
+  session: faq-workshop
+
+- question: 14. Tem algum grupo de <i>whatsapp</i> para se comunicar com vocês antes do evento e tirar outras dúvidas?
+  answer: Por enquanto pode nos procurar pelo e-mail <a href="mailto:programa@agilebrazil.com">programa@agilebrazil.com</a> ou pelo <a target="_blank" href="https://api.whatsapp.com/send/?phone=5511916443750&text&type=phone_number&app_absent=0"><i>bot</i> do whatsapp(+55 11 91644-3750)</a>
+  session: faq-workshop
+
+- question: 1. Como pessoa palestrante ou facilitadora, preciso fazer inscrição para o Agile Brazil?
+  answer: Sim, você vai receber um <i>link</i> com cupom de 100% de desconto. É importante você fazer a sua inscrição logo que receber o e-mail para não ter problemas no dia do evento e no credenciamento. Sem inscrição não é possível acessar o evento e <b><u>não vai ser possível fazer a inscrição no dia do evento</u></b>.
+  session: faq-speakers-general
+
+- question: 2. Como funciona o credenciamento no dia do evento?
+  answer: Você precisa fazer sua inscrição previamente pelo <i>link</i> enviado para seu e-mail. No dia do evento basta se direcionar para o credenciamento e informar que você é uma pessoa palestrante ou facilitadora de <i>workshop</i>. Geralmente temos uma fila exclusiva para palestrantes e facilitadoras, nesta fila, você receberá um crachá de palestrante, que permite que você participe dos 3 dias de evento, assistindo todas palestras e <i>workshops</i>.
+  session: faq-speakers-general
+
+- question: 3. Minha palestra e/ou <i>workshop</i> só é no último dia do evento. Preciso ir no primeiro dia para fazer o credenciamento? 
+  answer: Não, caso você não tenha interesse em ver outras palestras e workshops, você pode ir somente no dia em que for palestrar. Haverá credenciamento todos os dias.
+  session: faq-speakers-general
+
+- question: 4. Vai ter chapelaria e/ou  guarda volume?
+  answer: Sim, você pode guardar malas de viagem e/ou mochilas lá durante o evento.
+  session: faq-speakers-general
+
+- question: 5. Vai ter algum espaço para trabalhar ou fazer alguma reunião pontual?
+  answer: Estamos trabalhando para ter espaços que permitam a pessoa trabalhar, mas não garantimos que será em uma área reservada e silenciosa. Também não teremos <i>internet</i>. Então, se precisar participar de alguma reunião, deve utilizar o sua <i>internet</i> 3G/4G.
+  session: faq-speakers-general
+
+- question: 6. Vai ser gravado o evento? Se sim, todas salas?
+  answer: Sim, você vai receber um <i>link</i> com cupom de 100% de desconto. É importante você fazer a sua inscrição logo que receber o e-mail para não ter problemas no dia do evento e no credenciamento. Sem inscrição não é possível acessar o evento e <b><u>não vai ser possível fazer a inscrição no dia do evento</u></b>.
+  session: faq-speakers-general
+
+- question: 7. Vai ter transmissão online o evento?
+  answer: Não, somente quem estiver presencialmente no evento que vai conseguir ver as palestras e participar dos <i>workshops</i>.
+  session: faq-speakers-general
+
+- question: 8. Alguma orientação para o dia do evento? 
+  answer: Ao chegar, você deve retirar a sua credencial no balcão de credenciamento. Em seguida, é bom que faça o reconhecimento do espaço para saber onde fica a sala da sua palestra. No dia da sua palestra, se dirija até a sala com antecedência para verificação da apresentação e eventuais testes. Lembrando que os testes só poderão ser realizados nos momentos em que não estiverem acontecendo outras palestras.
+  session: faq-speakers-general
+
+- question: Sou estudante. Como aplico o meu desconto?
+  answer: Neste ano não é um cupom de desconto, é um tipo de ingresso específico para estudantes. Basta acessar a plataforma de inscrições através <a href="https://www.even3.com.br/agilebrazil/" target="_blank">deste link</a>, escolher o tipo de ingresso <strong>Estudante</strong> e realizar sua inscrição. Para se beneficiar do desconto para estudantes, você deve anexar a comprovação de matrícula no campo <strong>Comprovante de Matrícula</strong> do formulário de inscrição.
+  session: faq-general
+
+- question: A inscrição de estudante com desconto vale somente para alunos da graduação, ou poderá também ser utilizada por pós-graduandos?
+  answer: Você também pode se inscrever como pós-graduando. No momento do credenciamento, é importante que você tenha as comprovações solicitadas.
+  session: faq-general
+
+- question: Fiz minha inscrição como estudante. O que acontece se eu não apresentar a comprovação da universidade?
+  answer: A carteira de estudante ou declaração original feita pela universidade/faculdade é obrigatória e, caso não apresentado, só poderá ingressar na conferência mediante o pagamento da diferença do valor para a inscrição de última hora.
+  session: faq-general
+
+- question: Como funciona o desconto para pessoa com deficiência?
+  answer: Este desconto pode ser usado por pessoas com deficiência de qualquer natureza. Para usar este desconto, acesse o sistema de inscrições <a href="https://www.even3.com.br/agilebrazil/" target="_blank">por esse link aqui</a>, que já inclui o código de desconto. Não é necessário apresentar comprovação. A inscrição feita com este código serve como autodeclaração, e é suficiente para se ter direito ao desconto.
+  session: faq-general
+
+- question: Sou membro da Agile Alliance. Tenho desconto?
+  answer: Sim! Se você é membro ativo da Agile Alliance, você receberá um cupom com 10% de desconto pelo mailing da Agile Alliance. Caso não tenha recebido, você pode nos solicitar pelo <a href="mailto:inscricoes@agilebrazil.com">inscricoes@agilebrazil.com</a>
+  session: faq-general
+
+- question: Agile Brazil tem descontos em inscrições para grupos?
+  answer:  Sim, para inscrições de Early Bird, preço Normal e de Última Hora. Para montar um grupo, envie um email para <a href="mailto:inscricoes@agilebrazil.com">inscricoes@agilebrazil.com</a>. Empresas também podem inscrever seus funcionários como grupo. Apenas note que descontos de grupo <strong>não se aplicam</strong> à faixa Super Early Bird, nem a pagamentos por empenho.
+  session: faq-general
+
+- question: A partir de quantas pessoas podemos considerar "grupo"?
+  answer: Grupos terão descontos relativos à quantidade de pessoas, sobre a faixa vigente, a partir de Early Bird. De 05 a 14 pessoas – 10% de desconto. De 15 a 29 pessoas – 15% de desconto. De 30 a 49 pessoas – 20% de desconto. A partir de 50 pessoas – 25% de desconto. Lembrando que descontos de grupo <strong>não se aplicam</strong> à faixa Super Early Bird, nem a pagamentos por empenho.
+  session: faq-general
+
+- question: É possível combinar descontos de vários grupos?
+  answer: Não. Só é possível usar um token de grupo/desconto por inscrição.
+  session: faq-general
+
+- question: Vocês aceitam empenhos?
+  answer: Sim, empenhos podem ser usados como forma de pagamento. Para este tipo de inscrição, é cobrado o valor da inscrição da faixa "Última hora" da edição vigente, porque só receberemos após o evento. Para pagamento por empenho, envie um email para <a href="mailto:inscricoes@agilebrazil.com">inscricoes@agilebrazil.com</a>. Será um prazer te atender.
+  session: faq-general
+
+- question: Pagamento por empenho tem direito a desconto de grupo?
+  answer: Não. Pois o pagamento ocorre após a realização do evento e o desconto de grupo é um benefício apenas para inscrições antes da data da conferência.
+  session: faq-general
+
+- question: O que acontece se eu não pagar a inscrição no prazo de 7 dias corridos?
+  answer: Após 7 dias você receberá um email informando que a inscrição será cancelada. O cancelamento será efetivado caso o pagamento não ocorra em até 7 dias após o recebimento deste email.
+  session: faq-general
+
+- question: Recebi uma cobrança de pagamento por boleto, mas já paguei. O que devo fazer?
+  answer: Quando o pagamento é via boleto, há o tempo de processamento bancário. Com isso, é possível que o email tenha sido enviado entre o momento do pagamento e a notificação do nosso sistema. Se você já pagou, o status deve ser atualizado em breve.
+  session: faq-general
+
+- question: Se eu fizer a minha inscrição, mas não puder comparecer, eu perco meu dinheiro?
+  answer: "Não, você pode transferir gratuitamente para outra pessoa ou você pode solicitar devolução, mas nesse caso ela será parcial. Em casos de devolução, o percentual de reembolso será calculado de acordo com a data do pedido do cancelamento, conforme a tabela a seguir: até um mês antes do evento: 70% do valor pago; entre 1 mês antes do evento e 72 horas antes do início: 50% de restituição; a partir de 72 horas antes do evento: não há restituição."
+  session: faq-general
+
+- question: Preciso da nota fiscal da inscrição para apresentar para minha empresa. É possível emití-la?
+  answer: Com certeza! Após realizar o pagamento, basta solicitar a NF pelo email <a href="mailto:inscricoes@agilebrazil.com">inscricoes@agilebrazil.com</a>.
+  session: faq-general

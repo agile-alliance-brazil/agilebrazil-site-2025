@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<!--
+	Venue by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html lang="pt-BR">
+	<head>
+		<title>{{ site.title }}</title>
+		<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+		<meta name="author" content="{{ site.seo.author_1 }}" />
+		<meta name="author" content="{{ site.seo.author_2 }}" />
+		<meta name="description" content="{{ site.seo.description }}" />
+		<meta name="keywords" content="{{ site.seo.keywords }}" />
+		<meta name="license" content="Content licensed under CC BY-SA 4.0" />
+    {% include favicon.html %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="{{ "/assets/css/main_8.css?v=6" | prepend: site.baseurl_root }}" />
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | prepend: site.baseurl_root }}" />
+
+    {% seo %}
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+				<nav>
+					<a href="/2025/programa" class="menu-responsivo" >PROGRAMAÇÃO</a>
+					<!-- <a href="{{ site.sistemas.inscricoes  }}" class="menu-responsivo" target="_blank" >Ingressos</a> -->
+					<a href="/2025/patrocinio" class="menu-responsivo">patrocínio</a>
+					<a href="#aracaju" class="menu-responsivo">Aracaju</a>
+					<!-- <a href="/patrocinio#section-sponsor" class="menu-responsivo">Patrocinadores</a> -->
+					<a href="#menu"> <span class="hide-text">{% t labels.menu %}</span></a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+    {% include nav.html %}
+
+		<!-- Content from _pages folder -->
+		{{ content }}
+
+		<!-- Footer -->
+	{% include footer.html %}
+
+		<!-- Scripts -->
+			<script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl_root }}"></script>
+			<script src="{{ "/assets/js/browser.min.js" | prepend: site.baseurl_root }}"></script>
+			<script src="{{ "/assets/js/breakpoints.min.js" | prepend: site.baseurl_root }}"></script>
+			<script src="{{ "/assets/js/util.js" | prepend: site.baseurl_root }}"></script>
+			<script src="{{ "/assets/js/main.js" | prepend: site.baseurl_root }}"></script>
+			<script src="{{ "/assets/js/programa.js?v=6" | prepend: site.baseurl_root }}"></script>
+		<!-- Google tag (gtag.js) -->
+		<!--
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSY442YMPP"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-ZSY442YMPP');
+		</script>
+	-->
+	</body>
+</html>

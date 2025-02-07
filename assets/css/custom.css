@@ -1,0 +1,243 @@
+.teaser-agilebrazil-2022 {
+  display: flex;
+  align-items: center;
+}
+
+.teaser-agilebrazil-2022 > .actions.special {
+  width: 100%;
+}
+
+.teaser-agilebrazil-2022 iframe {
+  width: 100%;
+  height: 297px;
+}
+
+/* Footer default sizes, desktop */
+
+#footer .sponsorsInLevel img.title {
+  max-width: 245px;
+  max-height: 245px;
+}
+
+#footer .sponsorsInLevel img.diamante {
+  max-width: 245px;
+  max-height: 245px;
+}
+
+#footer .sponsorsInLevel img.ouro {
+  max-width: 245px;
+  max-height: 245px;
+}
+
+#footer .sponsorsInLevel img.prata {
+  max-width: 245px;
+  max-height: 245px;
+}
+
+#footer .sponsorsInLevel img.bronze {
+  max-width: 215px;
+  max-height: 215px;
+}
+
+#footer .sponsorsInLevel img.comunidade:not(.apoio) {
+  max-width: 185px;
+  max-height: 185px;
+}
+
+#footer .sponsorsInLevel img.apoio:not(.comunidade) {
+  max-width: 155px;
+  max-height: 155px;
+}
+
+#footer .sponsorsInLevel img.diversidade {
+  max-width: 155px;
+  max-height: 155px;
+}
+
+#footer .sponsorsInLevel img.comunidade.apoio {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+@media screen and (max-width: 736px) {
+  /* Footer default sizes, mobile */
+  #footer .sponsorsInLevel img.title {
+    max-width: 245px;
+    max-height: 245px;
+  }
+
+  #footer .sponsorsInLevel img.diamante {
+    max-width: 245px;
+    max-height: 245px;
+  }
+
+  #footer .sponsorsInLevel img.ouro {
+    max-width: 245px;
+    max-height: 245px;
+  }
+
+  #footer .sponsorsInLevel img.prata {
+    max-width: 245px;
+    max-height: 245px;
+  }
+
+  #footer .sponsorsInLevel img.bronze {
+    max-width: 215px;
+    max-height: 215px;
+  }
+
+  #footer .sponsorsInLevel img.comunidade:not(.apoio) {
+    max-width: 185px;
+    max-height: 185px;
+  }
+  
+  #footer .sponsorsInLevel img.apoio:not(.comunidade) {
+    max-width: 155px;
+    max-height: 155px;
+  }
+
+  #footer .sponsorsInLevel img.diversidade {
+    max-width: 155px;
+    max-height: 155px;
+  }
+  
+  #footer .sponsorsInLevel img.comunidade.apoio {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+.codeOfConduct {
+  color: #A0A0A0;
+  text-align: center;
+}
+
+.codeOfConduct em {
+  color: #808080;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.portoAlegre {
+  margin-bottom: 2rem;
+}
+
+.sobre h2 {
+  padding-top: 2em;
+}
+
+.registration .row {
+  gap: 1em;
+  margin: 1rem 0 3rem;
+}
+
+.registration .rate {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  cursor: default;
+  display: block;
+  flex: 1 1 0;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.registration a.rate:visited {
+  color: inherit;
+} 
+
+.registration .rate.current {
+  background-color: rgba(255, 165, 6, 0.42);
+  cursor: pointer;
+}
+
+.registration .rate h3 {
+  min-height: 56px;
+}
+
+.registration .rate .price {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.registration .rate h3, .registration .rate .price {
+  text-align: center;
+}
+
+.registration dd {
+  margin-bottom: 2rem;
+}
+
+/* Program */
+
+.program ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.program h2 {
+  margin-top: 2em;
+}
+
+.connections-item img {
+   background-color: var(--ab-logo-azul-escuro);
+}
+
+.program .session {
+  border: solid 1px #ddd;
+  flex-grow: 1;
+  padding: 1em;
+  max-width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.program .session .classifications p {
+  margin-bottom: 0;
+}
+
+.program .session h3 {
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  margin-top: 1.25rem;
+}
+
+@media screen and (max-width: 980px) {
+  .program .session {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .program .session {
+    max-width: unset;
+  }
+
+  .program .session .classifications {
+    flex-direction: column;
+  }
+}
+
+table.sessions thead {
+  font-weight: bold;
+}
+
+#registrations-closed h2 {
+  color: rgb(255, 72, 16);
+}
+
+#protocolos .spotlights {
+  justify-content: center;
+}
+
+
+section.home-submissions p,
+div.be-a-sponsor p {
+  text-align: center;
+}

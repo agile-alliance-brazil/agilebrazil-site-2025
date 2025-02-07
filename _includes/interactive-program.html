@@ -1,0 +1,21 @@
+<div class="connections feature">
+  <header class="heading">
+    <h2>Conexões</h2>
+    <p>O poder das pessoas e da Comunicação face a face</p>
+  </header>
+  <div class="connections-item">
+    <div class="spotlights">
+      {% for interaction in site.data.interactive-program %}
+        <div class="spotlight">
+          <article>
+            <img class="image fit" src="{{ interaction.icon | prepend: site.baseurl_root }}" alt="{{ interaction.name }}" />
+            <div class="content">
+              <h3>{{ interaction.name }}</h3>
+              <p>{{ interaction.description }}</p>
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

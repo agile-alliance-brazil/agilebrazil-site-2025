@@ -1,0 +1,75 @@
+titles:
+  about: Sobre a Agile Brazil
+
+conference:
+  city: São Paulo
+  state: SP
+  venue: Centro de Convenções AM Malls Sergipe
+  dates: '9, 10 e 11 de outubro'
+  year: '2025'
+
+nav:
+  home: Início
+  about: Sobre
+  about_covid_protocol_anchor: '#protocoloCovid'
+  registrations: Inscrições
+  program: Programação
+  sponsorship: Patrocínio
+  wbma: Workshop Brasileiro de Métodos Ágeis
+  location: Local e parcerias
+  code_of_conduct: Código de Conduta
+  diversity_and_inclusion: Diversidade, Equidade e Inclusão
+  privacy_policy: Política de privacidade
+  faq: Perguntas Frequentes
+  faq_speakers: Perguntas Frequentes Palestrantes
+
+actions:
+  register: Garanta seu ingresso
+  want_my_ticket: Quero meu ingresso
+  see_photos: Confira as fotos
+  see_videos: Confira os vídeos
+  know_the_program: Conheça o restante da programação
+  build_your_sponsorship: Monte seu patrocínio
+  read_the_code_of_conduct: Leia o código de conduta
+  know_health_actions: Conheça medidas de saúde
+  privacy_policy: Política de privacidade
+  see_what_happened_in_past_editions: Veja o que rolou nas edições anteriores
+  want_be_a_speaker: Quero ser palestrante
+  community_quiz: quero dar minha ideia
+
+labels:
+  menu: Menu
+  biggest_community_event: AGILE BRAZIL, O MAIOR EVENTO DA COMUNIDADE
+  previous_editions: Edições anteriores
+  participate: Participe!
+  registrations_are_open: Inscrições estão abertas!
+  what_will_happen_at_the_ab: O que vai rolar na AB
+  be_a_sponsor: Patrocine!
+  your_brand_on_agilebrazil: Sua marca na Agile Brazil
+  keynotes: Nossos Keynotes 2023
+  health_protocols: Protocolos de Saúde
+  privacy_policy: Política de privacidade
+  and_more: E muito mais!
+  community: Comunidade
+  see_the_program: Veja a programação
+  photo_of: Foto de 
+  face_to_face_event: '100% presencial'
+
+texts:
+  purchase_your_registration_early: Garanta a sua vaga nos primeiros lotes, para a maior experiência que une o melhor conteúdo em Agilidade, Produtos, Liderança Inovação e Tecnologia, na maior cidade do Brasil.
+  registrations_are_open: As inscrições para a Agile Brazil 2025 já estão abertas e nos veremos em São Paulo, de 9 a 11 de outubro, para palestras, papos de corredor e happy hours!
+  registrations_are_open_2: Mal podemos esperar!
+  biggest_community_event_text: 'Considerado o maior evento da comunidade de Agilidade, Produtos e Inovação da América Latina, a Agile Brazil em 2023 foi na capital paulista, explorou o que a capital paulista tem de melhor: diversidade e possibilidades em todas as áreas.'
+  check_agile_brazil_2023: Veja tudo que rolou no Agile Brazil de 2023
+  initial_batch_call: Aproveite o lote inicial para se inscrever!
+  while_we_are_working_to_build_the_ab_program: Enquanto estamos trabalhando no que vai rolar na edição desten ano, convidamos você a dar uma olhada no que já rolou nas edições anteriores. Confira nosso canal no YouTube!
+  your_brand_on_agilebrazil: Profissionais, potenciais clientes e parceiros de negócio olham para nossos patrocinadores como referências em agilidade. Crie o pacote de patrocínio personalizado para seus objetivos.
+  tips_to_make_our_event_excellent: Informações para nosso encontro ser excelente
+  code_of_conduct: Levamos a segurança e experiência de todas as pessoas com a devida seriedade. Participantes, palestrantes e organizadores da Agile Brazil devem seguir nosso Código de Conduta.
+  health_protocols: a nossa seção "Sobre a AB" você também encontra os protocolos que adotaremos para que possamos nos encontrar presencialmente e com segurança. Saiba mais sobre requisitos vacinais e afins.
+  privacy_policy: Você pode conhecer mais sobre porque perguntamos algumas informações e como usamos os dados coletados na inscrição, na submissão e na navegação desse site, na nossa Política de Privacidade.
+  know_the_rest_of_the_program: Conheça o restante da programação
+  call_to_program: Além de keynotes, a programação da Agile Brazil conta com muitas outras sessões, palestras e mãos na massa, de pessoas veteranas e estreantes da comunidade ágil! Você já pode ver as sessões na página de Programa.
+  submissions_are_open: Submissões abertas
+  secure_your_spot: Garanta sua vaga!
+  keynotes_shortly: Em breve mais Keynotes

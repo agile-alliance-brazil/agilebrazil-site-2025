@@ -1,0 +1,35 @@
+<!-- Sponsors -->
+<section class="patrocinadoras">
+  <header class="heading major">
+    <h2>Patrocinadoras</h2>
+    <p>Conheça as empresas que apoiam a Agile Brazil</p>
+  </header>
+
+  {% for cota in site.cotas %}
+    <div class="cota">
+      {% if cota == 'apoio' %}
+        <h3 class="patrocinadoras" style="text-align: center;">apoio</h3>
+      {% else %}
+        {% if cota == 'comunidade apoio' %}
+          <h3 class="patrocinadoras" style="text-align: center;">comunidades apoio</h3>
+        {% else %}
+          <h3 class="patrocinadoras" style="text-align: center;">Patrocínio {{cota}}</h3>
+        {% endif %} 
+      {% endif %} 
+    </div>
+    <div class="sponsorsInLevel {{cota}}">
+      <div class="empresas">
+        {% assign levelSponsors = site.data.sponsors | where: "level", cota %}
+        {% for sponsor in levelSponsors %}         
+          {% if sponsor.url %}
+            <a href="{{sponsor.url}}" target="_blank">
+              <img class="{{sponsor.level}} {{sponsor.name}}" src="{{sponsor.logo | prepend: site.baseurl_root }}" alt="{{sponsor.name}}">
+            </a>
+          {% else %}
+            <img class="{{sponsor.level}} {{sponsor.name}}" src="{{sponsor.logo | prepend: site.baseurl_root }}" alt="{{sponsor.name}}">
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</section>

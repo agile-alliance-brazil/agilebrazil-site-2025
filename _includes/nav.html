@@ -1,0 +1,25 @@
+{% assign nav = site.data.nav %}
+{% assign past = site.data.past-conferences %}
+
+{% if jekyll.environment == 'production' %}
+  {% assign nav = nav | where: "production", true %}
+{% endif %}
+
+<nav id="menu">
+  <h2>{{ site.relative_url }}</h2>
+
+  <ul class="links">
+    {% for item in nav %}
+      {% if item.visible %}
+        <li><a href="{% tl item.namespace %}">{% t item.name %}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h4>{% t labels.previous_editions %}</h4>
+  <ul class="links">
+    {% for conf in past %}
+      <li><a href="{{conf.url}}" target="_blank">{{conf.name}}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

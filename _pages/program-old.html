@@ -1,0 +1,964 @@
+---
+title: nav.program
+namespace: program
+permalink: /programa
+permalink_en: /program
+---
+
+<div id="main" class="wrapper style1">
+  <div class="inner-full">
+    <header class="heading major">
+      <h1>Programação Agile Brazil 24</h1>
+    </header>
+    
+      <center  style="display: none;">
+        <p>A programação da Agile Brazil está disponível no app, que será nossa fonte de verdade, mostrando inclusive eventuais mudanças na grade <em>live</em>. Ele é um WebApp e dá a possibilidade de adicionar um link à home do seu celular, para praticidade.</p>
+
+        <a target="_blank" href="https://app.agilebrazil.com" class="button primary">Veja a programação no app!</a>
+  
+        <p>Acesso direto em: <a  target="_blank" href="https://app.agilebrazil.com">https://app.agilebrazil.com</a></p>
+      </center>
+
+    <section id="program-intregration-v2"  class="program">
+      <h3>Trilhas:</h3>
+      <ul  class="legend-trilha">
+        <li><div class="legend raizes"></div><div>Raízes da Agilidade</div></li>
+        <li><div class="legend lideranca"></div><div>Liderança e Agilidade Estratégica</div></li>
+        <li><div class="legend metrica"></div><div>Métricas e Inteligência com Dados</div></li>
+        <li><div class="legend cliente"></div><div>Produtos e Foco no Cliente</div></li>
+        <li><div class="legend futuro"></div><div>Futuro da Agilidade</div></li>
+      </ul>
+      <hr/>
+      <div class="dias">
+        <ul  class="actions special">
+          <li><div class="button primary" id="program-30" onclick="program(30)">Dia 30</div></li>
+          <li><div class="button primary" id="program-31" onclick="program(31)">Dia 31</div></li>
+          <li><div class="button primary" id="program-1" onclick="program(1)">Dia 01</div></li>
+        </ul>
+      </div>
+      <div id="estrutura-30">
+        <table class="full-screen">
+          <thead>
+            <tr class="locais">
+              <th class="horario">
+                
+              </th>
+              <th class="trilhas">
+                <div  class="local auditorio card-program">Arena 1</div>
+              </th>
+              <th class="trilhas">
+                <div class="local palestra card-program">Arena 2</div>
+              </th>
+              <th class="trilhas">
+                <div class="local palestra card-program">Arena 3</div>
+              </th>
+              <th class="trilhas">
+                <div class="local palestra card-program">Atalaia</div>
+              </th>
+              <th class="trilhas">
+                <div class="local workshop card-program">Abaís</div>
+              </th>
+              <th class="trilhas">
+                <div class="local workshop card-program">Terra Caída</div>
+              </th>
+              <th class="trilhas">
+                <div class="local workshop card-program">Pirambu</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><div class="time card-program">9:00</div></td>
+              <td colspan="7" id="identificacao-900"></td>
+            </tr>
+            <tr>
+              <td style="align-content: center;"><div class="time card-program">9:30</div></td>
+              <td colspan="7" id="identificacao-930"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">10:50</div></td>
+              <td colspan="4"><div  class="interval card-program">Intervalo</div></td>
+              <td rowspan="5" id="identificacao-1100-5"></td>
+              <td rowspan="5" id="identificacao-1100-6"></td>
+              <td rowspan="5" id="identificacao-1100-7"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>11:00</p></div></td>
+              <td id="identificacao-1100-1"></td>                
+              <td id="identificacao-1100-2"></td>                
+              <td id="identificacao-1100-3"></td>                
+              <td id="identificacao-1100-4"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">11:50</div></td>
+              <td colspan="4"><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td class="time-30"><div class="time card-program"><p>12:00</p></div></td>
+              <td id="identificacao-1200-1"></td>                
+              <td id="identificacao-1200-2"></td>
+              <td id="identificacao-1200-3"></td>
+              <td id="identificacao-1200-4"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">12:50</div></td>
+              <td colspan="4"><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">13:00</div></td>
+              <td colspan="7"><div class="activity full-space card-program">Almoço</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>14:30</p></div></td>
+              <td id="identificacao-1430-1"></td>                
+              <td id="identificacao-1430-2"></td>                
+              <td id="identificacao-1430-3"></td>                
+              <td id="identificacao-1430-4"></td>
+              <td rowspan="5" id="identificacao-1430-5"></td>
+              <td rowspan="5" id="identificacao-1430-6"></td>
+              <td rowspan="5" id="identificacao-1430-7"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">15:00</div></td>
+              <td colspan="4"><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>15:10</p></div></td>
+              <td id="identificacao-1510-1"></td>
+              <td id="identificacao-1510-2"></td>
+              <td id="identificacao-1510-3"></td>
+              <td id="identificacao-1510-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:00</div></td>
+              <td colspan="4"><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>16:10</p></div></td>
+              <td id="identificacao-1610-1"></td>
+              <td id="identificacao-1610-2"></td>
+              <td id="identificacao-1610-3"></td>
+              <td id="identificacao-1610-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:40</div></td>
+              <td colspan="7" id="identificacao-1640"></td>
+            </tr>
+            <tr class="linha-dia-padrao">
+              <td><div class="time card-program">17:00</div></td>
+              <td colspan="7" id="identificacao-1700"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">18:00 - 18:30</div></td>
+              <td colspan="7" id="identificacao-1800"></td>
+            </tr>
+          </tbody>
+        </table>  
+
+
+
+          <table class="response-version-screen">
+            <tr>
+              <td><div class="time card-program">9:00</div></td>
+              <td id="identificacao-900"></td>
+            </tr>
+            <tr>
+              <td style="align-content: center;"><div class="time card-program">9:30</div></td>
+              <td id="identificacao-930"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">10:50</div></td>
+              <td colspan="7"><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="4"><div class="time card-program"><p>11:00</p></div></td>
+              <td id="identificacao-1100-1"></td>                
+            </tr>
+            <tr>
+              <td id="identificacao-1100-2"></td>               
+            </tr>
+            <tr>
+              <td id="identificacao-1100-3"></td>                
+            </tr>
+            <tr>
+              <td id="identificacao-1100-4"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">11:50</div></td>
+              <td><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="4" class="time-30"><div class="time card-program"><p>12:00</p></div></td>
+              <td id="identificacao-1200-1"></td>                
+            </tr>
+            <tr>
+              <td id="identificacao-1200-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1200-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1200-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">13:00</div></td>
+              <td><div class="activity full-space card-program">Almoço</div></td>
+            </tr>
+            <tr>
+              <td rowspan="4"><div class="time card-program"><p>14:30</p></div></td>
+              <td id="identificacao-1430-1"></td> 
+            </tr>
+            <tr>               
+              <td id="identificacao-1430-2"></td>  
+            </tr>
+            <tr>              
+              <td id="identificacao-1430-3"></td> 
+            </tr>
+            <tr>               
+              <td id="identificacao-1430-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">15:00</div></td>
+              <td><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="4"><div class="time card-program"><p>15:10</p></div></td>
+              <td id="identificacao-1510-1"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:00</div></td>
+              <td><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="4"><div class="time card-program"><p>16:10</p></div></td>
+              <td id="identificacao-1610-1"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1610-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1610-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1610-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:40</div></td>
+              <td id="identificacao-1640"></td>
+            </tr>
+            <tr class="linha-dia-padrao">
+              <td><div class="time card-program">17:00</div></td>
+              <td id="identificacao-1700"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">18:00 - 18:30</div></td>
+              <td id="identificacao-1800"></td>
+            </tr>
+          </tbody>
+        </table> 
+
+        <table class="response-version-screen">
+          <tr >
+            <td>
+            </td>
+            <td>
+              <div class="activity workspace card-program">Workshops</div>
+            </td>       
+          </tr>
+          <tr >
+            <td rowspan="3"><div class="time card-program"> <p>11:00 <br/> - <br/>13:00</p></div></td>
+            <td id="identificacao-1100-5"></td>   
+          </tr>
+          <tr>   
+            <td id="identificacao-1100-6"></td>      
+          </tr>
+          <tr>   
+            <td id="identificacao-1100-7"></td>
+          </tr>
+          <tr >
+            <td rowspan="3"><div class="time card-program"> <p>14:30 <br/> - <br/>16:40</p></div></td>
+            <td id="identificacao-1430-5"></td>   
+          </tr>
+          <tr>   
+            <td id="identificacao-1430-6"></td>     
+          </tr>
+          <tr>   
+            <td id="identificacao-1430-7"></td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="estrutura-31">
+        <table class="full-screen">
+          <thead>
+            <tr class="locais">
+              <th class="horario">
+                
+              </th>
+              <th class="trilhas">
+                <div  class="local auditorio card-program">Arena 1</div>
+              </th>
+              <th class="trilhas">
+                <div class="local palestra card-program">Arena 2</div>
+              </th>
+              <th class="trilhas">
+                <div class="local palestra card-program">Arena 3</div>
+              </th>
+              <th class="trilhas">
+                <div class="local palestra card-program">Atalaia</div>
+              </th>
+              <th class="trilhas">
+                <div class="local workshop card-program">Abaís</div>
+              </th>
+              <th class="trilhas">
+                <div class="local workshop card-program">Terra Caída</div>
+              </th>
+              <th class="trilhas">
+                <div class="local workshop card-program">Pirambu</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><div class="time card-program">9:00</div></td>
+              <td colspan="7" id="identificacao-900"></td>
+            </tr>
+            <tr>
+              <td style="align-content: center;"><div class="time card-program">9:30</div></td>
+              <td colspan="7" id="identificacao-930"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">10:50</div></td>
+              <td colspan="5"><div  class="interval card-program">Intervalo</div></td>
+              <td rowspan="5" id="identificacao-1100-6"></td>
+              <td rowspan="5" id="identificacao-1100-7"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>11:00</p></div></td>
+              <td id="identificacao-1100-1"></td>                
+              <td id="identificacao-1100-2"></td>                
+              <td id="identificacao-1100-3"></td>                
+              <td id="identificacao-1100-4"></td>
+              <td id="identificacao-1100-5"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">11:50</div></td>
+              <td colspan="5"><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td class="time-30"><div class="time card-program"><p>12:00</p></div></td>
+              <td id="identificacao-1200-1"></td>                
+              <td id="identificacao-1200-2"></td>
+              <td id="identificacao-1200-3"></td>
+              <td id="identificacao-1200-4"></td>
+              <td id="identificacao-1200-5"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">12:50</div></td>
+              <td colspan="5"><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">13:00</div></td>
+              <td colspan="7"><div class="activity full-space card-program">Almoço</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>14:30</p></div></td>
+              <td id="identificacao-1430-1"></td>                
+              <td id="identificacao-1430-2"></td>                
+              <td id="identificacao-1430-3"></td>                
+              <td id="identificacao-1430-4"></td>
+              <td id="identificacao-1430-5"></td>
+              <td rowspan="5" id="identificacao-1430-6"></td>
+              <td rowspan="5" id="identificacao-1430-7"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">15:00</div></td>
+              <td colspan="5"><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>15:10</p></div></td>
+              <td id="identificacao-1510-1"></td>
+              <td id="identificacao-1510-2"></td>
+              <td id="identificacao-1510-3"></td>
+              <td id="identificacao-1510-4"></td>
+              <td id="identificacao-1510-5"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:00</div></td>
+              <td colspan="5"><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>16:10</p></div></td>
+              <td id="identificacao-1610-1"></td>
+              <td id="identificacao-1610-2"></td>
+              <td id="identificacao-1610-3"></td>
+              <td id="identificacao-1610-4"></td>
+              <td id="identificacao-1610-5"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:40</div></td>
+              <td colspan="7" id="identificacao-1640"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">17:00</div></td>
+              <td id="identificacao-1700-1"></td>
+              <td id="identificacao-1700-2"></td>
+              <td id="identificacao-1700-3"></td>
+              <td id="identificacao-1700-4"></td>
+              <td id="identificacao-1700-5"></td>
+              <td id="identificacao-1700-6"></td>
+              <td id="identificacao-1700-7"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">17:30</div></td>
+              <td colspan="7"><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">17:40 - 18:00</div></td>
+              <td colspan="7" id="identificacao-1740"></td>
+            </tr>
+          </tbody>
+        </table>  
+
+
+
+          <table class="response-version-screen">
+            <tr>
+              <td><div class="time card-program">9:00</div></td>
+              <td id="identificacao-900"></td>
+            </tr>
+            <tr>
+              <td style="align-content: center;"><div class="time card-program">9:30</div></td>
+              <td id="identificacao-930"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">10:50</div></td>
+              <td colspan="7"><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="5"><div class="time card-program"><p>11:00</p></div></td>
+              <td id="identificacao-1100-1"></td>                
+            </tr>
+            <tr>
+              <td id="identificacao-1100-2"></td>               
+            </tr>
+            <tr>
+              <td id="identificacao-1100-3"></td>                
+            </tr>
+            <tr>
+              <td id="identificacao-1100-4"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1100-5"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">11:50</div></td>
+              <td><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="5" class="time-30"><div class="time card-program"><p>12:00</p></div></td>
+              <td id="identificacao-1200-1"></td>                
+            </tr>
+            <tr>
+              <td id="identificacao-1200-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1200-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1200-4"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1200-5"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">13:00</div></td>
+              <td><div class="activity full-space card-program">Almoço</div></td>
+            </tr>
+            <tr>
+              <td rowspan="5"><div class="time card-program"><p>14:30</p></div></td>
+              <td id="identificacao-1430-1"></td> 
+            </tr>
+            <tr>               
+              <td id="identificacao-1430-2"></td>  
+            </tr>
+            <tr>              
+              <td id="identificacao-1430-3"></td> 
+            </tr>
+            <tr>               
+              <td id="identificacao-1430-4"></td>
+            </tr>
+            <tr>               
+              <td id="identificacao-1430-5"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">15:00</div></td>
+              <td><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="5"><div class="time card-program"><p>15:10</p></div></td>
+              <td id="identificacao-1510-1"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-4"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-5"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:00</div></td>
+              <td><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="5"><div class="time card-program"><p>16:10</p></div></td>
+              <td id="identificacao-1610-1"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1610-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1610-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1610-4"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1610-5"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:40</div></td>
+              <td id="identificacao-1640"></td>
+            </tr>           
+            <tr>
+              <td rowspan="5"><div class="time card-program">17:00</div></td>
+              <td id="identificacao-1700-1"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1700-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1700-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1700-4"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1700-5"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">17:30</div></td>
+              <td colspan="7"><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">17:40 - 18:00</div></td>
+              <td colspan="7" id="identificacao-1740"></td>
+            </tr>
+          </tbody>
+        </table> 
+
+        <table class="response-version-screen">
+          <tr >
+            <td>
+            </td>
+            <td>
+              <div class="activity workspace card-program">Workshops</div>
+            </td>       
+          </tr>
+          <tr >
+            <td rowspan="2"><div class="time card-program"> <p>11:00 <br/> - <br/>13:00</p></div></td>
+            <td id="identificacao-1100-6"></td>      
+          </tr>
+          <tr>   
+            <td id="identificacao-1100-7"></td>
+          </tr>
+          <tr >
+            <td rowspan="2"><div class="time card-program"> <p>14:30 <br/> - <br/>16:40</p></div></td>
+            <td id="identificacao-1430-6"></td>     
+          </tr>
+          <tr>   
+            <td id="identificacao-1430-7"></td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="estrutura-1">
+        <table class="full-screen">
+          <thead>
+            <tr class="locais">
+              <th class="horario">
+                
+              </th>
+              <th class="trilhas">
+                <div  class="local auditorio card-program">Arena 1</div>
+              </th>
+              <th class="trilhas">
+                <div class="local palestra card-program">Arena 2</div>
+              </th>
+              <th class="trilhas">
+                <div class="local palestra card-program">Arena 3</div>
+              </th>
+              <th class="trilhas">
+                <div class="local palestra card-program">Atalaia</div>
+              </th>
+              <th class="trilhas">
+                <div class="local workshop card-program">Abaís</div>
+              </th>
+              <th class="trilhas">
+                <div class="local workshop card-program">Terra Caída</div>
+              </th>
+              <th class="trilhas">
+                <div class="local workshop card-program">Pirambu</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><div class="time card-program">9:00</div></td>
+              <td colspan="7" id="identificacao-900"></td>
+            </tr>
+            <tr>
+              <td style="align-content: center;"><div class="time card-program">9:30</div></td>
+              <td colspan="7" id="identificacao-930"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">10:50</div></td>
+              <td colspan="5"><div  class="interval card-program">Intervalo</div></td>
+              <td rowspan="5" id="identificacao-1100-6"></td>
+              <td rowspan="5" id="identificacao-1100-7"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>11:00</p></div></td>
+              <td id="identificacao-1100-1"></td>                
+              <td id="identificacao-1100-2"></td>                
+              <td id="identificacao-1100-3"></td>                
+              <td id="identificacao-1100-4"></td>
+              <td id="identificacao-1100-5"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">11:50</div></td>
+              <td colspan="5"><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td class="time-30"><div class="time card-program"><p>12:00</p></div></td>
+              <td id="identificacao-1200-1"></td>                
+              <td id="identificacao-1200-2"></td>
+              <td id="identificacao-1200-3"></td>
+              <td id="identificacao-1200-4"></td>
+              <td id="identificacao-1200-5"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">12:50</div></td>
+              <td colspan="5"><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">13:00</div></td>
+              <td colspan="7"><div class="activity full-space card-program">Almoço</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>14:30</p></div></td>
+              <td id="identificacao-1430-1"></td>                
+              <td id="identificacao-1430-2"></td>                
+              <td id="identificacao-1430-3"></td>                
+              <td id="identificacao-1430-4"></td>
+              <td rowspan="7" id="identificacao-1430-5"></td>
+              <td rowspan="7" id="identificacao-1430-6"></td>
+              <td rowspan="7" id="identificacao-1430-7"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">15:00</div></td>
+              <td colspan="4"><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>15:10</p></div></td>
+              <td id="identificacao-1510-1"></td>
+              <td id="identificacao-1510-2"></td>
+              <td id="identificacao-1510-3"></td>
+              <td id="identificacao-1510-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">15:40</div></td>
+              <td colspan="4"><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>15:50</p></div></td>
+              <td id="identificacao-1550-1"></td>
+              <td id="identificacao-1550-2"></td>
+              <td id="identificacao-1550-3"></td>
+              <td id="identificacao-1550-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:20</div></td>
+              <td colspan="4"><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program"><p>16:30</p></div></td>
+              <td id="identificacao-1630-1"></td>
+              <td id="identificacao-1630-2"></td>
+              <td id="identificacao-1630-3"></td>
+              <td id="identificacao-1630-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">17:00</div></td>
+              <td colspan="7" id="identificacao-1700"></td>
+            </tr>
+            <tr class="linha-dia-padrao">
+              <td><div class="time card-program">17:20</div></td>
+              <td colspan="7" id="identificacao-1720"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">18:10 - 18:30</div></td>
+              <td colspan="7" id="identificacao-1810"></td>
+            </tr>
+          </tbody>
+        </table>  
+
+
+
+          <table class="response-version-screen">
+            <tr>
+              <td><div class="time card-program">9:00</div></td>
+              <td id="identificacao-900"></td>
+            </tr>
+            <tr>
+              <td style="align-content: center;"><div class="time card-program">9:30</div></td>
+              <td id="identificacao-930"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">10:50</div></td>
+              <td><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="5"><div class="time card-program"><p>11:00</p></div></td>
+              <td id="identificacao-1100-1"></td>                
+            </tr>
+            <tr>
+              <td id="identificacao-1100-2"></td>               
+            </tr>
+            <tr>
+              <td id="identificacao-1100-3"></td>                
+            </tr>
+            <tr>
+              <td id="identificacao-1100-4"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1100-5"></td>
+            </tr>
+            <tr>
+              <td class="time-10"><div class="time card-program">11:50</div></td>
+              <td><div  class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="5" class="time-30"><div class="time card-program"><p>12:00</p></div></td>
+              <td id="identificacao-1200-1"></td>                
+            </tr>
+            <tr>
+              <td id="identificacao-1200-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1200-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1200-4"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1200-5"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">13:00</div></td>
+              <td><div class="activity full-space card-program">Almoço</div></td>
+            </tr>
+            <tr>
+              <td rowspan="4"><div class="time card-program"><p>14:30</p></div></td>
+              <td id="identificacao-1430-1"></td> 
+            </tr>
+            <tr>               
+              <td id="identificacao-1430-2"></td>  
+            </tr>
+            <tr>              
+              <td id="identificacao-1430-3"></td> 
+            </tr>
+            <tr>               
+              <td id="identificacao-1430-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">15:00</div></td>
+              <td><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="4"><div class="time card-program"><p>15:10</p></div></td>
+              <td id="identificacao-1510-1"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1510-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">15:40</div></td>
+              <td><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="4"><div class="time card-program"><p>15:50</p></div></td>
+              <td id="identificacao-1550-1"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1550-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1550-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1550-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">16:20</div></td>
+              <td><div class="interval card-program">Intervalo</div></td>
+            </tr>
+            <tr>
+              <td rowspan="4"><div class="time card-program"><p>16:30</p></div></td>
+              <td id="identificacao-1630-1"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1630-2"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1630-3"></td>
+            </tr>
+            <tr>
+              <td id="identificacao-1630-4"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">17:00</div></td>
+              <td id="identificacao-1700"></td>
+            </tr>
+            <tr class="linha-dia-padrao">
+              <td><div class="time card-program">17:20</div></td>
+              <td id="identificacao-1720"></td>
+            </tr>
+            <tr>
+              <td><div class="time card-program">18:10 - 18:30</div></td>
+              <td id="identificacao-1810"></td>
+            </tr>
+          </tbody>
+        </table> 
+
+        <table class="response-version-screen">
+          <tr >
+            <td>
+            </td>
+            <td>
+              <div class="activity workspace card-program">Workshops</div>
+            </td>       
+          </tr>
+          <tr >
+            <td rowspan="3"><div class="time card-program"> <p>11:00 <br/> - <br/>13:00</p></div></td>
+            <td id="identificacao-1100-5"></td>   
+          </tr>
+          <tr>   
+            <td id="identificacao-1100-6"></td>      
+          </tr>
+          <tr>   
+            <td id="identificacao-1100-7"></td>
+          </tr>
+          <tr >
+            <td rowspan="3"><div class="time card-program"> <p>14:30 <br/> - <br/>17:00</p></div></td>
+            <td id="identificacao-1430-5"></td>   
+          </tr>
+          <tr>   
+            <td id="identificacao-1430-6"></td>     
+          </tr>
+          <tr>   
+            <td id="identificacao-1430-7"></td>
+          </tr>
+        </table>
+      </div>
+
+    </section>
+  </div>
+</div>
+
+
+<section id="keynotes" class="wrapper" style="display: none;">
+  <div class="inner speakers">
+    <header class="heading major">
+      <h2>Palestrantes</h2>
+    </header>
+  
+  <div class="profiles session-speakers">
+
+    {% for speaker in site.data.speakers %}
+    <div class="profile">
+      <div  style="display: none" class="image-keynotes">
+        <img class="image-speaker" src="{{speaker.photo}}" alt="{% t labels.photo_of %} {{speaker.name}}" />
+      </div>
+      <div class="image-keynotes" style="width: 125px !important;
+      height: 125px !important;
+      border-radius: 50% !important;
+      margin: auto;
+      background-image: url({{speaker.photo}});
+      background-size: cover;" alt="{% t labels.photo_of %} {{speaker.name}}">
+      </div>
+      <p><b>{{ speaker.name }}</b></p>
+      <p>{{ speaker.minibio }}</p>
+      <ul class="icons hastag">
+        {% if speaker.raizes %}
+          <li><span class="hastag-speakers raizes">#Raízes da Agilidade</span></li>
+        {% endif %}
+        {% if speaker.lideranca %}
+          <li><span class="hastag-speakers lideranca">#Liderança e Agilidade Estratégica</span></li>
+        {% endif %}
+        {% if speaker.metricas %}
+          <li><span class="hastag-speakers metrica">#Métricas e Inteligência com Dados</span></li>
+        {% endif %}
+        {% if speaker.cliente %}
+          <li><span class="hastag-speakers cliente">#Produtos e Foco no Cliente</span></li>
+        {% endif %}
+        {% if speaker.futuro %}
+          <li><span  class="hastag-speakers futuro">#Futuro da Agilidade</span></li>
+        {% endif %}
+      </ul>
+      <ul class="icons">
+        {% if speaker.linkedin %}
+          <li><a href="{{ speaker.linkedin }}" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+        {% endif %}
+        {% if speaker.twitter %}
+          <li><a href="{{ speaker.twitter }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+        {% endif %}
+        {% if speaker.site %}
+          <li><a href="{{ speaker.site }}" class="icon solid fas fa-link" target="_blank"><span class="label">Website</span></a></li>
+        {% endif %}
+        {% if speaker.spotify %}
+          <li><a href="{{ speaker.spotify }}" class="icon brands fa-spotify" target="_blank"><span class="label">Podcast</span></a></li>
+        {% endif %}
+      </ul>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+</section>
+<style>
+  .patrocinadoras {
+    display: none;
+  }
+</style>

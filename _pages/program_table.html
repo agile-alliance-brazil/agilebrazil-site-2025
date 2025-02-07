@@ -1,0 +1,62 @@
+---
+title: nav.program
+namespace: program_table
+permalink: /programa-table
+permalink_en: /program-table
+---
+
+<div id="main" class="wrapper">
+  <div class="inner">
+    <header class="heading major">
+      <h1>Programa</h1>
+      <p>O que vai rolar na Agile Brazil 2025</p>
+    </header>
+
+    <p>A programação da Agile Brazil está saindo do forno e, como valorizamos entrega desde cedo e com frequência de valor, você já pode ver uma prévia do que vai rolar.</p>
+
+    <table class="sessions">
+      <thead>
+        <tr>
+          <td>Trilha</td>
+          <td>Nome da sessão</td>
+          <td>Palestrantes</td>
+          <td>Horário</td>
+        </tr>
+      </thead>
+      <tbody>
+      {% for session in site.data.sessions %}
+        <tr>
+          <td>{{session.track}}</td>
+          <td>{{session.title}}</td>
+          <td>
+            {{session.author}}
+            {% if session.coAuthor %}
+              & {{session.coAuthor}}
+            {% endif %}
+          </td>
+          <td>{{session.date}}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+
+    <p>Para conhecer um pouco do conteúdo que recebemos na conferência, assista as palestras de outras edições da Agile Brazil no nosso canal no Youtube!</p>
+
+    <ul class="actions special">
+      <li><a href="https://www.youtube.com/channel/UCq45wLjEs9BRRreV02Fe8rw" class="button primary" target="_blank"><span class="fab fa-youtube"></span> Reveja conteúdo da AB</a></li>
+    </ul>
+  </div>
+</div>
+<!--
+{% if site.data.toggles.keynotes %}
+<section id="keynotes" class="wrapper style1">
+  <div class="inner">
+    <header class="heading major">
+      <h2>{% t labels.keynotes %}</h2>
+    </header>
+
+    {% include keynotes.html %}
+  </div>
+</section>
+{% endif %}
+-->

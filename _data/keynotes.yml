@@ -1,0 +1,42 @@
+- name: RAFAEL CACERES
+  title: CEO e Cofundador da Taller
+  minibio: CEO e Cofundador da Taller, consultoria de desenvolvimento de produtos que leva agilidade para grandes empresas do Brasil. Cientista da Computação e especialista em Agilidade, cocriador do Fluxo unificado e Instrutor do Software Zen, conta com mais de 20 anos de experiência desenvolvendo software.
+  photo: /assets/images/speakers/rafael-carceres-branco.png
+  site: https://blog.taller.net.br/
+  linkedin: https://www.linkedin.com/in/rafaelcaceres/
+  twitter: https://twitter.com/rafaelcaceres
+
+- name: PIA MARIA
+  title: Inspiration Director and Agile People Coach
+  minibio: Pia Maria foi talvez a primeira pessoa no mundo a associar os termos “Agile” e “HR”. Seu objetivo é fazer com que as pessoas trabalhem em direção a uma visão comum por meio do envolvimento dos funcionários com sua criatividade e motivação. <br/> Ela é autora de Agile People – A Radical Approach for HR and Managers (That Leads to Motivated Employees) e fundadora da rede global Agile People.
+  photo: /assets/images/speakers/pia-maria-branco.png
+  site: https://agilepeople.com/
+  linkedin: https://www.linkedin.com/in/piamia/
+  twitter: https://twitter.com/piamia2
+
+- name: Mariana Graf
+  title: Global Productivity Manager
+  minibio: Mari Graf é uma referência no mundo da agilidade. Sua paixão por transformar organizações e seu compromisso em empoderar equipes tornam suas palestras verdadeiras fontes de aprendizado e motivação, sua experiência e conhecimento nos trarão insights valiosos sobre a agilidade, liderança e  gestão.
+  photo: /assets/images/speakers/mariana-graf.png
+  # site: https://agilepeople.com/
+  spotify: https://open.spotify.com/show/74egzYjAy9pDh6KsoMdJqk?si=c85584c61fdf4956
+  linkedin: https://www.linkedin.com/in/marianagraf/
+  twitter: https://twitter.com/marianagraf
+
+- name: Arie van Bennekum
+  title: Agile Thought leader/Strategist
+  minibio: Um dos autores do Manifesto Ágil. Ao longo dos anos, Arie se tornou especialista em transformações ágeis e agilidade de negócios. Arie está trabalhando como líder de pensamento e líder de transformação. Além disso, ele está ajudando organizações e suas equipes de liderança a superar problemas em ambientes ágeis e ajudá-los a alcançar o valor comercial necessário.
+  photo: /assets/images/speakers/arie-van-bennekum.png
+  site: https://arievanbennekum.com/bio
+  # spotify: https://open.spotify.com/show/74egzYjAy9pDh6KsoMdJqk?si=c85584c61fdf4956
+  linkedin: https://www.linkedin.com/in/ariev3/
+  twitter: https://twitter.com/arievanbennekum
+
+- name: Melina Teixeira
+  title: Psiquiatra | Psychiatrist | Telepsiquiatria | Inovação em Saúde | Arquitetura de soluções em telessaúde e saúde digital | Acelerada Google for Startups
+  minibio: Médica psiquiatra pela Universidade Federal da Bahia com experiência internacional pelo LHSC, Canadá e Arquiteta de soluções para telessaúde e saúde digital. Tem a carreira marcada pela atuação na saúde pública onde atuou como Psiquiatra Forense e na assistência de pacientes pelo viés de uma ótica ética, antirracista e inclusiva. É considerada uma das líderes de inovação em saúde no Brasil, tem passagem pelo programa Google for Startups, é fundadora do inovador Teleconsultório especializado no atendimento de mulheres e brasileiros no exterior e divulga informações de saúde no ambiente digital em @saudementalparamulheres.
+  photo: /assets/images/speakers/melina-teixeira.png
+  site: https://www.dramelinateixeira.com/
+  # spotify: https://open.spotify.com/show/74egzYjAy9pDh6KsoMdJqk?si=c85584c61fdf4956
+  linkedin: https://www.linkedin.com/in/melina-teixeira-b267b9201/
+  # twitter: https://twitter.com/arievanbennekum

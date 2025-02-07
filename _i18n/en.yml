@@ -1,0 +1,75 @@
+titles:
+  about: About Agile Brazil
+
+conference:
+  city: São Paulo
+  state: SP
+  venue: Centro de Convenções AM Malls Sergipe
+  dates: october/9, 10 and 11
+  year: '2025'
+
+nav:
+  home: Home
+  about: About
+  about_covid_protocol_anchor: '#covidProtocol'
+  registrations: Registrations
+  program: Program
+  sponsorship: Sonsorship
+  wbma: Workshop Brasileiro de Métodos Ágeis
+  location: Location and partners
+  code_of_conduct: Code of Conduct
+  diversity_and_inclusion: Diversity, Equity and Inclusion
+  privacy_policy: Privacy policy
+  faq: Frequently Asked Questions
+  faq_speakers: Frequently Asked Questions Speakers
+
+actions:
+  register: Register!
+  want_my_ticket: Want my ticket
+  see_photos: See the photos 
+  see_videos: Watch the videos
+  know_the_program: Know the program
+  build_your_sponsorship: Build your sponsorship
+  read_the_code_of_conduct: Read the code of conduct
+  know_health_actions: Know health actions
+  privacy_policy: Privacy Policy
+  see_what_happened_in_past_editions: See what happened in past editions
+  want_be_a_speaker: I want to be a speaker
+  community_quiz: Speech, community
+
+labels:
+  menu: Menu
+  biggest_community_event: AGILE BRAZIL, O MAIOR EVENTO DA COMUNIDADE
+  previous_editions: Previous editions
+  participate: Participate!
+  registrations_are_open: Registrations are open!
+  what_will_happen_at_the_ab: What will happen at the AB
+  be_a_sponsor: Be a sponsor!
+  your_brand_on_agilebrazil: Your brand on Agile Brazil
+  keynotes: Our 2023 Keynotes
+  health_protocols: Health protocols
+  privacy_policy: Privacy Policy
+  and_more: And more!
+  community: Community
+  see_the_program: See the program
+  photo_of: Photo of
+  face_to_face_event: '100% face to face'
+
+texts:
+  purchase_your_registration_early: Purchase your regsitration early for the biggest experience that joins the best content about Agile, Products, Leadership, Innovation and Technology at the biggest city from Brazil.
+  registrations_are_open: Registrations to Agile Brazil 2025 are open and we'll see you at São Paulo, at october 9 to 11, to session talks, hall talks and happy hours!
+  registrations_are_open_2: We can not wait!
+  biggest_community_event_text: 'Considered the biggest event of the agility, products and innovation community in Latin America, Agile Brazil is back in São Paulo to explore what is best in São Paulo: diversity and possibilities in all areas.'
+  check_agile_brazil_2023: See everything that happened in Agile Brazil 2023
+  initial_batch_call: Take advantage of the initial batch to sign up!
+  while_we_are_working_to_build_the_ab_program: While we're working at current edition, we suggest you to take a look on what already happened on past editions. Visit our YouTube channel.
+  your_brand_on_agilebrazil: Professionals, prospects and business partners look our sponsors as agile reference. Build your custom sponsorship set for your targets.
+  tips_to_make_our_event_excellent: Informations to make our event excellent
+  code_of_conduct: We take everyone's safety and experience seriously. Agile Brazil participants, speakers and organizers must follow our Code of Conduct.
+  health_protocols: In our section "About AB" you'll also find the protocols that we'll adopt so that we can meet in person and safely. Learn more about vaccination and related requirements.
+  privacy_policy: You can learn more about why we ask for certain information and how we use the data collected when registering, submitting and browsing this site in our Privacy Policy.
+  know_the_rest_of_the_program: Know the rest of the program
+  call_to_program: In addition to keynotes, Agile Brazil's program includes many others talks, sessions and hands-on, from veterans and newcomers of agile community! You can already look the sessions at Program page.
+  submissions_are_open: Submissions are open
+  secure_your_spot: Secure your spot!
+  keynotes_shortly: More Keynotes Coming Soon

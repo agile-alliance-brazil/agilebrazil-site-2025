@@ -1,0 +1,42 @@
+---
+title: nav.faq_speakers
+namespace: faq_speakers
+permalink: /faq-palestrantes
+permalink_en: /faq-speakers
+---
+<div id="main" class="wrapper">
+  <div class="inner faq">
+    <header class="heading major">
+      <h1>{% t nav.faq %}</h1>
+    </header>
+
+    <ul>
+      {% for session in site.data.faq-session %}    
+      {% if session.id != "faq-general" %}
+        <li>
+            <a href="#{{session.id}}">{{session.title}}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <dl>
+      {% for session in site.data.faq-session %}
+        {% if session.id != "faq-general" %}
+          <div id="{{session.id}}">
+            <h3 style="text-align: center; padding-top: 70px;">{{session.title}}</h3>
+          </div>
+          <div>
+            {% assign sessionFaq = site.data.faq | where: "session", session.id %}
+            {% for faq in sessionFaq %}         
+              <dt><b>{{faq.question}}</b></dt>
+              <dd>{{faq.answer}}</dd>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </dl>
+
+    <p>Caso ainda tenha dúvidas, pedidos ou comentários, entre em contato com o Comitê de Programa através do e-mail <a href="mailto:programa@agilebrazil.com">programa@agilebrazil.com</a> ou pelo <a target="_blank" href="https://api.whatsapp.com/send/?phone=5511916443750&text&type=phone_number&app_absent=0"><i>bot</i> do whatsapp(+55 11 91644-3750)</a></p>
+  </div>
+</div>

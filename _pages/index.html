@@ -1,0 +1,392 @@
+---
+title: Home
+namespace: home
+permalink: /
+---
+
+<!-- Banner -->
+<section id="banner">
+  <div class="inner">
+    <!-- <header>
+      <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl_root }}" alt="{{ site.title }}" />
+
+    </header>
+    <div>
+      <p class="conference-dates">{% t conference.dates %}</p>
+      <p class="conference-city">{% t conference.city %} - {% t conference.state %}</p>
+      <p class="purchase-early">{% t texts.purchase_your_registration_early %}</p> -->
+     <!-- <a href="{{ site.sistemas.inscricoes  }}" target="_blank" class="button large primary">{% t actions.register %}</a> -->
+    </div>
+  </div>
+</section>
+
+{% if site.data.toggles.sos_rs %}
+<section class="wrapper home-submissions style1">
+  <div class="inner">
+    <header class="heading">
+      <h2 class="regular-call-text">Vamos ajudar o Rio Grande do Sul!</h2>
+    </header>
+    <div class="double-division">
+      <div class="feature">
+        <p>Diante da situação de calamidade pública enfrentada pelos gaúchos, o governo do Estado reativou o canal de doações para a conta SOS Rio Grande do Sul. Foi restabelecida a chave PIX (CNPJ: 92.958.800/0001-38), a mesma utilizada no ano passado, vinculada à conta bancária criada pelo Banrisul.</p>
+        <ul class="actions special">
+          <li><a href="https://sos.benfeitoria.com/?ref=home_banner#doacao" blank="_blank" class="button primary">Link para mais informações</a></li>
+        </ul>
+      </div>
+      <div class="feature">
+        <img style="max-width: 400px; width: auto;" src="{{ "/assets/images/pix_rs.jpeg" | prepend: site.baseurl_root }}" alt="{{ site.title }}" />
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Callouts -->
+{% if site.data.toggles.home_submissions %}
+  <section class="wrapper home-submissions">
+    <div class="inner">
+      <header class="heading">
+        <h2 class="regular-call-text">{% t texts.submissions_are_open %}</h2>
+        <p>Da comunidade para a comunidade</p>
+      </header>
+      <p>Este evento é feito por vocês! Submeta sua palestra ou workshop e contribua com o maior evento de Agilidade, Produtos e Inovação da América Latina.</p>
+      <ul class="actions special">
+        <li><a href="{{ site.sistemas.submissoes }}" blank="_blank" class="button primary">{% t actions.want_be_a_speaker %}</a></li>
+      </ul>
+    </div>
+  </section>
+{% else %}
+
+  <!-- <section id="program-index" class="wrapper style1">
+    <div class="inner">
+      <div class="feature">
+        <div class="heading">
+          <h2 style="color: #fff;">Considerado o maior evento da comunidade de Agilidade, Produtos e Inovação da América Latina.</h2>
+        </div>
+        <h3>Em 2023 tivemos</h3>
+        <ul class="actions special">
+          <li>
+            <h1>+73</h1>
+            <h3>Palestras</h3>
+          </li>
+          <li>
+            <h1>+120</h1>
+            <h3>Palestrantes</h3>
+          </li>
+          <li>
+            <h1>+18</h1>
+            <h3>Workshops</h3>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </section>-->
+{% endif %}
+
+
+<!-- Callouts -->
+{% if site.data.toggles.initial_batch_call %}
+  <section class="wrapper style1 ">
+    <div class="inner">
+      <header class="heading">
+        <h2 class="regular-call-text">{% t texts.secure_your_spot %}</h2>
+        <!-- <p>{% t texts.secure_your_spot %}</p> -->
+      </header>
+      <center><p>Garanta seu ingresso agora e pague em até 4x sem juros!!!</p></center> 
+      <ul class="actions special">
+        <li><a href="{{ site.sistemas.inscricoes }}" target="_blank" class="button primary">{% t actions.want_my_ticket %}</a></li>
+      </ul>
+    </div>
+  </section>
+{% endif %}
+
+<section id="home-trilhas" class="wrapper">
+  <div class="inner">
+    <header class="heading major">
+      <h2>TRILHAS</h2>
+    </header>
+    <div class="spotlights">
+      <div class="spotlight">
+        <article class="content trilha-raiz-agilidade">
+          <div class="header-trilha">
+            <h3>Raízes da Agilidade</h3>
+          </div>
+          <div class="body-trilha">
+            <p>É no desenvolvimento de software que a agilidade nasceu e até hoje se faz muito presente. Nessa trilhar vais encontrar em como usar a agilidade nos mais variados times a descobrir melhores maneiras de entregar valor.</p>
+          </div>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content trilha-lideranca">
+          <div class="header-trilha">
+            <h3>Liderança e Agilidade Estratégica</h3>
+          </div>
+          <div class="body-trilha">
+            <p>Esta trilha é dedicada a falar de agilidade como tema estratégico para as organizações e como as lideranças de hoje - em qualquer área de negócio - podem se beneficiar desse conhecimento.</p>
+          </div>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content trilha-metricas">
+          <div class="header-trilha">
+            <h3>Métricas e Inteligência com Dados</h3>
+          </div>
+          <div class="body-trilha">
+            <p>Aqui você encontra tudo sobre, como construir produtos orientados a necessidades, validar hipóteses, melhorar fluxos, aumentar eficiência e eficácia, priorizar um backlog...</p>
+          </div>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content trilha-foco-cliente">
+          <div class="header-trilha">
+            <h3>Produtos e Foco no Cliente</h3>
+          </div>
+          <div class="body-trilha">
+            <p>A capacidade de se adaptar rapidamente às necessidades e desejos dos clientes é fundamental dentro do mundo ágil. Bons produtos precisam de boas estratégias.</p>
+          </div>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content trilha-futuro">
+          <div class="header-trilha">
+            <h3>Futuro da Agilidade</h3>
+          </div>
+          <div class="body-trilha">
+            <p>Mas será que temos todas as respostas para o futuro emergente? Venha desvendar esses mistérios conosco! Queremos entender sobre os nossos problemas - os atuais e os próximos.</p>
+          </div>
+        </article>
+      </div>
+  </div>
+</section>
+
+{% if site.data.toggles.reminder_last_year %}
+<section class="wrapper ">
+  <div class="inner">
+    <div class="double-division">
+      <div class="feature teaser-agilebrazil-2022">
+        <div class="actions special">
+          <iframe src="https://www.youtube.com/embed/JOgIebG7j4w?si=RYD5ZwxKq0bm4H0t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="heading">
+          <h2>{% t labels.biggest_community_event %}</h2>
+          <p>{% t texts.biggest_community_event_text %}</p>
+        </div>
+        <h3 class="regular-call-text">{% t texts.check_agile_brazil_2023 %}</h3>
+        <ul class="actions special">
+            <li><a href="https://drive.google.com/drive/folders/19fKBATdfiFlilRBbHzWAAfBs1J1fNxOo?usp=sharing" target="_blank" class="button primary">{% t actions.see_photos %}</a></li>
+            <!-- <li><a href="https://www.youtube.com/channel/UCq45wLjEs9BRRreV02Fe8rw" target="_blank" class="button primary">{% t actions.see_videos %}</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endif %}
+
+
+
+{% if site.data.toggles.keynotes %}
+<section id="keynotes" class="wrapper">
+  <div class="inner" style="display: grid;">
+    <header class="heading major">
+      <h2>{% t labels.keynotes %}</h2>
+    </header>
+
+    {% include keynotes.html %}
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.toggles.keynotes_shortly %}
+<section id="keynotes" class="wrapper">
+  <div class="inner">
+    <header class="heading major">
+      <h2>{% t labels.keynotes %}</h2>
+    </header>
+
+    <h3 class="regular-call-text">{% t texts.keynotes_shortly %}</h3>
+  </div>
+</section>
+{% endif %}
+
+
+<!-- Callouts -->
+<!--
+<section class="wrapper style1">
+  <div class="inner">
+    {% include interactive-program.html %}
+  </div>
+</section> 
+-->
+
+
+<section id="aracaju" class="wrapper home-submissions style1 referencias-locais" >
+  <div class="inner">
+    <header class="heading major">
+      <h2>Aracaju</h2>
+      <p>Conheça um pouco mais da cidade e planeje a sua estadia.</p>
+    </header>
+    <div class="spotlights">
+      <div class="spotlight">
+        <article class="content">
+          <h3>Como chegar?</h3>
+          <p>Temos diversas dicas e referências para te ajudar a chegar em Aracaju.</p>
+          <ul class="actions special">
+            <li><a href="https://agilebrazil.notion.site/Como-chegar-621db5c9aa1541aebda71c5223184fff" target="_blank" class="button primary">Dicas</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content">
+          <h3>Dicas para alimentação</h3>
+          <p>Temos uma série de recomendações gastronômicas na região onde será Agile Brazil 2025.</p>
+          <ul class="actions special">
+            <li><a href="https://agilebrazil.notion.site/f482f4a62e0e4fdca1fd074109263ea8?v=a989bf26768742afaa0aa1d69cfde662" target="_blank" class="button primary">Recomendações</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content">
+          <h3>Hospedagem</h3>
+          <p>Sabendo que boa parte do nosso público vem de outras localidades, o Comitê Local dá diversas dicas de hospedagem em Aracaju.</p>
+          <ul class="actions special">
+            <li><a href="https://agilebrazil.notion.site/Onde-se-hospedar-5aff99adb86d4834991a07cce9708eb3" target="_blank" class="button primary">Acomodações</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content">
+          <h3>Vai ficar pro FDS?</h3>
+          <p>Temos uma série de recomendações de lugares para curtir um fim de semana.</p>
+          <ul class="actions special">
+            <li><a href="https://agilebrazil.notion.site/Vai-ficar-pro-FDS-2342c1d4ee24427eb9d1b136db3bb341" target="_blank" class="button primary">Curtir o FDS</a></li>
+          </ul>
+        </article>
+      </div>
+  </div>
+  <p>Essas são algumas dicas, além delas temos muito mais, clique no saiba mais e fique por dentro delas :)</p>
+  <ul class="actions special">
+    <li><a href="https://agilebrazil.notion.site/Aracaju-7c5d39d1ce0e49e083f29e5202dd93be" target="_blank" class="button primary">Saiba mais</a></li>
+  </ul>
+</section>
+
+<!---
+  **************************
+-->
+
+{% if site.data.toggles.community_forms %}
+  <section class="wrapper home-submissions">
+    <div class="inner">
+      <header class="heading">
+        <h2 class="regular-call-text">Fala, Comunidade!</h2>
+        <p style="color: #282828;">O que você gostaria de ver nos corredores da Agile, pode / quer nos contar? <br/> 
+          O que são corredores? <br/>
+          Literalmente corredores, espaços onde andamos trocando de salas para palestras e workshop. Onde aproveitamos para compartilhar ideias/ desafios porque colaborar está no nosso DNA.</p>
+      </header>
+      <ul class="actions special">
+        <li><a href="{{ site.forms.community }}" blank="_blank" class="button primary">{% t actions.community_quiz %}</a></li>
+      </ul>
+    </div>
+  </section>
+{% endif %}
+
+<section id="section-sponsor" class="wrapper">
+  <div class="inner">
+    <div class="be-a-sponsor feature">
+      <header class="heading">
+        <h2>{% t labels.be_a_sponsor %}</h2>
+        <p>{% t labels.your_brand_on_agilebrazil %}</p>
+      </header>
+      <p>{% t texts.your_brand_on_agilebrazil %}</p>
+      <ul class="actions special">
+        <li><a href="{% tl sponsorship %}" class="button primary">{% t actions.build_your_sponsorship %}</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section id="protocolos" class="wrapper style1">
+  <div class="inner">
+    <header class="heading">
+      <h2>{% t titles.about %}</h2>
+      <p>{% t texts.tips_to_make_our_event_excellent %}</p>
+    </header>
+    <div class="spotlights">
+      <div class="spotlight">
+        <article class="content">
+          <h3>{% t nav.code_of_conduct %}</h3>
+          <p>{% t texts.code_of_conduct %}</p>
+          <ul class="actions special">
+            <li><a href="{% tl code_of_conduct %}" class="button primary">{% t actions.read_the_code_of_conduct %}</a></li>
+          </ul>
+        </article>
+      </div>
+      {% if site.data.toggles.covid %}
+        <div class="spotlight">
+          <article class="content">
+            <h3>{% t labels.health_protocols %}</h3>
+            <p>{% t texts.health_protocols %}</p>
+            <ul class="actions special">
+              <li><a href="{% tl about %}{% t nav.about_covid_protocol_anchor %}" class="button primary">{% t actions.know_health_actions %}</a></li>
+            </ul>
+          </article>
+        </div>
+      {% endif %}
+      <div class="spotlight">
+        <article class="content">
+          <h3>{% t labels.privacy_policy %}</h3>
+          <p>{% t texts.privacy_policy %}</p>
+          <ul class="actions special">
+            <li><a href="{% tl privacy_policy %}" class="button primary">{% t actions.privacy_policy %}</a></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<!--
+<section id="protocolos" class="wrapper style1">
+  <div class="inner">
+    <header class="heading">
+      <h2>Dúvidas</h2>
+    </header>
+    <div class="spotlights">
+      <div class="spotlight">
+        <article class="content">
+          <h3>Inscrito</h3>
+          <p>Você tem dúvidas sobre inscrições e participação no evento</p>
+          <ul class="actions special">
+            <li><a href="{% tl faq %}" class="button primary">DÚVIDAS FREQUENTES</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content">
+          <h3>Palestrante</h3>
+          <p>Você tem dúvidas sobre sua participação e organização no evento</p>
+          <ul class="actions special">
+            <li><a href="{% tl faq_speakers %}" class="button primary">DÚVIDAS FREQUENTES</a></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<!--
+<div class="backgroud-modal" style="opacity: 0;">
+  <div class="modal-inscricao">
+    <div class="fechar"><img src="{{ "/assets/images/fechar.png" | prepend: site.baseurl_root }}" /></div>
+    <a href="{{ site.sistemas.inscricoes  }}" target="_blank">
+      <img class="chamada-inscricao" src="{{ "/assets/images/popup-compra-2025.png" | prepend: site.baseurl_root }}" />
+    </a>
+    <div class="button primary">fechar</div>
+  </div>
+</div>
+
+-->

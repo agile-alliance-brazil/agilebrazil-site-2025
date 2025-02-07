@@ -1,0 +1,68 @@
+<!-- Footer -->
+<footer id="footer">
+  {% if site.data.toggles.sponsors %}
+    {% include sponsors.html %}
+  {% endif %}
+
+  <section class="sobre">
+    <div class="localizacao">
+      <h3>Local</h3>
+
+      <iframe src="https://www.google.com/maps/embed/v1/place?q=Centro+de+Conven%C3%A7%C3%B5es+AM+Malls+Sergipe&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" height="230" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa do Centro de Convenções AM Malls Sergipe"></iframe>
+
+      <address>
+        <p><strong>Centro de Convenções AM Malls Sergipe</strong></p>
+        <p>
+          Av. Pres. Tancredo Neves, 4444 <br/>
+          Inácio Barbosa, Aracaju – SE
+        </p>
+        <!-- <p><strong>Como chegar:</strong></p>
+        <p>
+          Transporte Público (recomendado)  <br />
+          Metrô - Estações Clinicas (3 min a pé) e Oscar Freire (9 min a pé)<br />
+          Carro/Moto - Estacionamento disponível no local (FitPark)
+        </p>-->
+      </address>
+    </div>
+
+    <div class="apoio">
+      <h3>Apoio</h3>
+
+      <ul class="supporters">
+        {% for supporter in site.data.supporters %}
+        <li>
+          <a href="{{supporter.url}}" target="_blank">
+            <img src="{{supporter.logo | prepend: site.baseurl_root}}" alt="{{supporter.name}}">
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="social">
+      <h3>Siga a Agile Brazil</h3>
+      <ul class="icons">
+        {% for item in site.data.social %}
+        <li>
+          <a href="{{item.url}}"
+             target="_blank"
+             class="icon brands {{item.icon}}"
+             aria-label="{{item.media}}">
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h3 class="emails">Fale com a Agile Brazil</h3>
+      {% for email in site.emails %}
+        <a href="mailto:{{email}}">{{email}}</a>
+      {% endfor %}
+      <a  target="_blank" href="https://api.whatsapp.com/send/?phone=5511916443750&text&type=phone_number&app_absent=0"><p style="margin: 0px;">AgilBot (+55 11 91644-3750)</p><img style="max-width: 100px; width: auto;" src="/2025/assets/images/agilebot.png" title="AgilBot"></a>
+    </div>
+
+  </section>
+
+  <section class="divider copyleft">
+    <span><i class="fab fa-creative-commons-sa"></i> CC BY-SA 4.0 &ndash; Agile Brazil 2010-2025</span>
+  </section>
+</footer>

@@ -1,0 +1,719 @@
+- name: Adriana Barros
+  title: Agilista na Vitat
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Imagem1.408cce5ad33641c6b172.jpg
+  linkedin: https://www.linkedin.com/in/adriana-sbarros/
+  metricas: 1
+
+- name: Alaíde Nepomuceno
+  title: Agilista
+  photo: /2025/assets/images/speakers/alaide-nepomuceno.jpeg
+  linkedin: https://www.linkedin.com/in/alaidenepomuceno
+  raizes: 1
+
+- name: Alan da Silva Mendes
+  title: Technical Product Manager / Product Owner - Claro/Embratel
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/fotoperfilalan.3889c206210943da8abd.jpg
+  linkedin: https://www.linkedin.com/in/alanmendes/
+  cliente: 1
+
+- name: Alan Kuhn
+  title: Agile Coach / RD Station
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/FotoPerfil.3104acdb7a12466dad70.jpeg
+  linkedin: https://www.linkedin.com/in/alandasilvakuhn/
+  cliente: 1
+  metricas: 1
+
+- name: Alceu Bravo
+  title: Sócio e Consultor na Bravo&Co
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/FotoABbemcompacta.2ab46c18fe494c81a744.jpg
+  linkedin: https://www.linkedin.com/in/alceubravo/
+  futuro: 1
+
+- name: Alessandra Vasco
+  title: Product Manager - Catho| Grupo SEEK
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/alessandra-vasco-.5e55b8e32610474aa622.jpg
+  linkedin: https://www.linkedin.com/in/alessandravasco/
+  cliente: 1
+
+- name: Alex Chastinet
+  title: Executive Group Product Manager - Via
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/fotorecente.0010047ca31845f994a5.jpg
+  linkedin: https://www.linkedin.com/in/alex-chastinet-037a919/
+  cliente: 1
+
+#- name: Alex Franco
+#  title: Diretor de Serviços de Crédito e Inovação na Serasa Experian
+#  photo: https://even3.blob.core.windows.net/formulario-inscricao/AlexFranco.274515316bd14f96b29a.jpeg
+#  linkedin: https://www.linkedin.com/in/alexrechefranco/
+#  lideranca: 1
+
+- name: Alexandre Realino Alves
+  title: Agilista na Solfácil
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Ale.708bc60e321b4d95918d.jpeg
+  linkedin: https://www.linkedin.com/in/alexandrerealinoalves/
+  raizes: 1
+  
+- name: Aline Furtado Oliveira
+  title: Assessora da Diretoria Executiva de Operações do IPT
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/FotoAline.f0a16817a49f4d0b91bc.jpg
+  linkedin: https://www.linkedin.com/in/oliveirafaline/
+  futuro: 1
+
+- name: Aline Roque Klein
+  title: Agile Chapter Lead e Head da Escola de UX & Design - Alura
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/alineroque2021.496dc526a5ab4cbd8ec5.jpeg
+  linkedin: https://www.linkedin.com/in/alineroquemkt/
+  futuro: 1
+
+- name: Amanda Carvalho
+  title: Head of Ombudsman no Nubank
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/AmandaCarvalho.e91ec6b92e2249619bd7.jpg
+  linkedin: https://www.linkedin.com/in/amandasantanacarvalho/
+  futuro: 1
+
+- name: Amon Aidukaitis
+  title: Especialista em Agilidade
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/imagem_2023-04-23_233015415.3128f7d10f92417d9385.png
+  linkedin: https://www.linkedin.com/in/amonaidukaitis/
+  futuro: 1
+
+- name: Analia Irigoyen
+  title: Diretora Executiva da ProMove Soluções
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Analia.76fee273612d4c8b8e4d.jpeg
+  linkedin: https://www.linkedin.com/in/analiairigoyen/
+  raizes: 1
+
+- name: Andre Francisco Cipolini
+  title: Coordenador de Agilidade - Banco BV
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/1517447302258.1ef3060600f64ab9984f.jpeg
+  linkedin: https://www.linkedin.com/in/andrecipolini/
+  metricas: 1
+
+- name: Andressa Chiara
+  title: Consultora e Trainer na K21
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/andressachiara.39025041e3094d6c90ab.jpeg
+  linkedin: https://www.linkedin.com/in/andressachiara/
+  lideranca: 1
+  
+- name: Ani Angelini
+  title: Studio Partner (VP) of Agile Organizations Studio at Globant
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/ECA9CF98-C028-4535-9A54-396D5C32962D.d17a912d6a5f469ba6c8.jpeg
+  linkedin: https://www.linkedin.com/in/alangelini/
+  lideranca: 1
+
+- name: Anna Claudia Vieira Santos
+  title: Analista de contratos Senior - IBM Brasil
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Nenis.cf6734f35b024115bf7f.jpg
+  linkedin: https://www.linkedin.com/in/nenisvieira/
+  lideranca: 1
+
+- name: Antonio Flor Junior
+  title: Coordenador de Agilidade - ViaHub
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/ImagemdoWhatsAppde2023-04-03s03.14.04.97e13bf05cea4e4d9556.jpg
+  linkedin: https://www.linkedin.com/in/juniorxs/
+  metricas: 1
+
+- name: Antonio Gaspar Gerent Júnior
+  title: Agile Specialist no Nubank
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/perfil.40b0a6c973ab4e149e3e.jpeg
+  linkedin: https://www.linkedin.com/in/antoniogerent/
+  futuro: 1
+
+- name: Ari do Amaral Torres Filho
+  title: Agile Expert/Adaptideas
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/ari9.db0fbfb04c284e43b486.jpg
+  linkedin: https://www.linkedin.com/in/ari-amaral/
+  futuro: 1
+
+- name: Beatriz Senna
+  title: Agilista no Nubank
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Screenshot2023-04-13at10.39.34.ee36eb00ce4d426ebfe7.png
+  linkedin: https://www.linkedin.com/in/beatrizsena/
+  metricas: 1
+
+- name: Bruna Fernanda Salerno
+  title: Agile Master - Getninjas
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/WhatsAppImage2023-04-23at19.38.57.d92277df4feb41cea6b8.jpeg
+  linkedin: https://www.linkedin.com/in/bruna-salerno-19059237
+  raizes: 1
+
+- name: Bruno Zanutto
+  title: Lead Agile Specialist @ Nubank
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/foto-perfil-AB.f2e2cee8c11d46f39625.png
+  linkedin: https://www.linkedin.com/in/bruno-zanutto/
+  futuro: 1
+  
+- name: Caco Mafra
+  title: kanban Expert | Mentor
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Caco2022-Cruzadofrente-quadrado.2ee1783f9db14bffa132.png
+  linkedin: https://www.linkedin.com/in/cleitonmafra/
+  futuro: 1
+  metricas: 1
+
+- name: Carlos Alexandre Marques Junior
+  title: Agile Lead | Banco Carrefour
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Foto_Bio_livro.5a18d81caee74c9fb4c1.jpg
+  linkedin: https://www.linkedin.com/in/carlos-alexandre-marques-junior/
+  lideranca: 1
+
+- name: Carol Serpejante
+  title: Cultura&Agilidade no Saúde iD
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/perfil.6d2d8c6e59a34c44a89f.png
+  linkedin: https://www.linkedin.com/in/carolserpejante/
+  raizes: 1
+
+- name: Ceci Fernandes
+  title: Nubank
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/IMAG3054_12.17c50affaae24d18a534.jpg
+  linkedin: https://www.linkedin.com/in/cecifernandes/
+  raizes: 1
+
+- name: Coaracy Gomes da Silva Junior
+  title: Consultor da DB (Design + Build)
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/CoaracyJunior2.c22221d58e12409f8a59.jpg
+  linkedin: https://www.linkedin.com/in/coaracy-junior/
+  lideranca: 1
+
+- name: Cristina Moriguchi
+  title: Head de Agilidade na Solfácil
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/eu.921ae97d75e24552933c.png
+  linkedin: https://www.linkedin.com/in/cristina-moriguchi/
+  raizes: 1
+
+- name: Daniel Nunes
+  title: Gerente de Agilidade
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Perfil.0590cda39ca342919b6f.png
+  linkedin: https://www.linkedin.com/in/danieljfnunes/
+  cliente: 1
+
+- name: Daniel Vitor Costa Ferreira
+  title: Especialista em Produtos Digitais na Petrobras
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Daniel-AVATAR-4.ac60bfb46c344a16b7ea.png
+  linkedin: https://www.linkedin.com/in/danielvitor
+  metricas: 1
+
+- name: Daniela Gomes dos Santos
+  title: Einstein | Agile Coach
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Dani.8989fb9b2f4343bd820b.png
+  linkedin: https://www.linkedin.com/in/daniela-gomes-dos-santos
+  futuro: 1
+  metricas: 1
+
+#- name: Davi Gabriel da Silva
+#  title: Consultor na Target Teal
+#  photo: https://even3.blob.core.windows.net/formulario-inscricao/perfil-linkedin-1000.e645aef754174371aa69.jpg
+#  linkedin: https://www.linkedin.com/in/davigbr
+#  futuro: 1
+
+- name: Deividy Ramires
+  title: Facilitador e Trainer de Estruturas Libertadores | Coletivo Ação
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/1579060712281.9623ba3a7fae483cb161.jpeg
+  linkedin: https://www.linkedin.com/in/deividyr/
+  futuro: 1
+
+- name: Diogo Riker
+  title: Agile Specialista - Zé Delivery
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/dioguim.6ce91f22c9cf48898799.jpg
+  linkedin: https://www.linkedin.com/in/diogoriker/
+  lideranca: 1
+
+- name: Durval Ramos Júnior
+  title: "Agile Coach, F1rst - Banco Santander"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/DurvalJr.981f10bad52c4d76b636.jpg
+  linkedin: https://www.linkedin.com/in/durvalramos/
+  cliente: 1
+
+- name: Eduardo Reus Souza
+  title: Coordenador de Agilidade / Agile Coach
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/foto-linkedin.bd489b40a4c8426a8bd7.jpg
+  linkedin: https://www.linkedin.com/in/eduardo-reus-souza/
+  raizes: 1
+
+- name: Estefany Medici
+  title: Líder de Inovação e Estratégia na Fortes Engenharia Ltda
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/este.fb4aed0cca994105b9a6.JPG
+  linkedin: https://www.linkedin.com/in/estefanycastro/
+  lideranca: 1
+
+- name: Eudes Raphael de Sá Santana
+  title: Consultor em Produtização na Petrobras
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Eudes.06d7a4fa172f4351b469.jpg
+  linkedin: https://www.linkedin.com/in/eudes-santana/
+  metricas: 1
+
+- name: Fabio Henrique Fonseca de Sousa
+  title: Agile Master - Compass.UOL
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/FotoFabioSousa.c1f8bdfffefa434198c1.jpeg
+  linkedin: https://www.linkedin.com/in/fabiohfs/
+  cliente: 1
+
+- name: Fabio Massa
+  title: Pagbank Pagseguro
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Capturar.98bfc6adb4584a71881b.JPG
+  linkedin: https://www.linkedin.com/in/fabmassa/
+  lideranca: 1
+
+- name: Felipe da Rocha Lopes
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/FelipeFoto.619321978e6b460ca42a.jpg
+  title: Desenvolvedor - Furnas
+  raizes: 1
+
+- name: Fernando Oliveira
+  title: Delivery Manager no Itaú Unibanco
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/fernando.75fdcb84cc0c4b70ab49.jpg
+  linkedin: https://www.linkedin.com/in/fernando-julio-oliveira/
+  cliente: 1
+  metricas: 1
+
+- name: Fernando Souza
+  title: PUC Minas Coordenador de Agilidade
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/FernandoHenriqueSouza2.78c27a931f7c4a4f8cfe.jpg
+  linkedin: https://www.linkedin.com/in/fernandohsouza/
+  cliente: 1
+
+#- name: Flavia Vargas
+#  title: Coordenadora de Branding e Conteúdo | PM3
+#  photo: https://even3.blob.core.windows.net/formulario-inscricao/flavia-vargas.e1e51bcda5be4eab934b.jpg
+#  linkedin: https://www.linkedin.com/in/flavia-vargas/
+#  cliente: 1
+
+- name: Foca - Luiz Felipe Sanches Gonçalves
+  title: Agile Master - Scania Latin America
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/1649687859610.38b2019ab72f4c5ea0d4.jpeg
+  linkedin: https://www.linkedin.com/in/luizofoca/
+  lideranca: 1
+
+- name: Giovanna Corte
+  title: Founder and CEO na eHeadset | Inglês da vida real
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/AA792B48-1A91-472D-B3B1-D3031C3D51A3.729b5a9500554ad5a20c.jpeg
+  linkedin: https://www.linkedin.com/in/giovanna-claro-18129231
+  cliente: 1
+
+- name: Gleica Reinert
+  title: Agile Manager - unico IDtech
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Foto_perfil-removebg-preview.ef094777eeb24fefab84.png
+  linkedin: https://www.linkedin.com/in/gleica/
+  lideranca: 1
+
+- name: Gustavo Ayres Ferreira
+  title: CIO @ ZBRA
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/zbra-dia1-16.96797f3fe6924df48965.jpg
+  linkedin: https://www.linkedin.com/in/gustavoayres/
+  raizes: 1
+
+- name: Gustavo De Angelo Andrade
+  title: Agile Specialist - GFT Brasil
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/gus2-1-1.7be1e001b08a4897a405.jpg
+  linkedin: https://www.linkedin.com/in/gusdeangelo/?locale=pt_BR
+  lideranca: 1
+
+- name: Gustavo Lopes de Miranda
+  title: "Agile Coach, BRQ"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/1674481988751.95d3c5a955de47f1a9ac.jpg
+  linkedin: https://www.linkedin.com/in/gustavo-miranda-b8361023/
+  metricas: 1
+
+- name: Henrique Gonçalves
+  title: Agile Coach no Banco BV
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/1669173052385.df90ff2c078948c5867d.jpeg
+  linkedin: https://www.linkedin.com/in/henriquefernandesgoncalves/
+  metricas: 1
+  cliente: 1
+
+- name: Isabel Coutinho
+  title: Agile Expert
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/foto_bel.f2e7a1e9b46a4b349935.jpeg
+  linkedin: https://www.linkedin.com/in/ircoutinho
+  lideranca: 1
+
+- name: Isabela Gayno
+  title: gerente
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Isa_renner.913ca78a30ad41309bd5.jpeg
+  linkedin: https://www.linkedin.com/in/isabelagayno/
+  lideranca: 1
+
+- name: Italo Oliveira
+  title: CEO
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/italo.7bd4e9b5460e41568d11.jpg
+  linkedin: https://www.linkedin.com/in/italo-oliveira-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-67172624/
+  raizes: 1
+
+- name: Jailson Barbosa de Lima
+  title: Agile Master / Compass UOL
+  photo: /2025/assets/images/speakers/jailson.jpg
+  linkedin: https://www.linkedin.com/in/jailson-barbosa/
+  raizes: 1
+
+- name: Janaina Lima Guimarães
+  title: Agile Master
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/WhatsAppImage2023-04-30at22.48.24.ba0ec452ee5149de84ef.jpeg
+  linkedin: https://www.linkedin.com/in/janaina-lima-guimaraes
+  lideranca: 1
+
+- name: Jéssica Borges Alves
+  title: Agile Coach | Open to Work
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/JessicaAlves.c8e7ea5d31564e1c850c.jpeg
+  linkedin: https://www.linkedin.com/in/jessicaalvesagilista/
+  raizes: 1
+  metricas: 1
+
+- name: Jéssica Ferrari
+  title: Agile Coach
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/PerfilAtualizado3.6e8d6d9d955e4d7ea0fe.jpeg
+  linkedin: https://www.linkedin.com/in/jessica7ferrari/
+  raizes: 1
+  lideranca: 1
+
+- name: Jiba Waghetti
+  title: Lead Development Consultant - Thoughtworks
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/jiba.fa584c30047a42cbab4b.jpeg
+  linkedin: https://br.linkedin.com/in/jiba-waghetti
+  raizes: 1
+
+- name: João Grabosque
+  title: "Agile Coach, BRQ"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/fotoeu-Copia.8ceff7a5257d4e0296d2.jpg
+  linkedin: https://www.linkedin.com/in/joaograbosque/
+  metricas: 1
+
+- name: Joaquim Torres
+  title: Founder and Principal Advisor - Gyaco
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/joca-bariloche-quadrado.ee982805a9f14ab683f3.png
+  linkedin: https://www.linkedin.com/in/jocatorres
+  cliente: 1
+  
+- name: Joelma Gonçalves Damasceno Mota
+  title: "Gerente Corporativa de Segurança, Meio ambiente e saúde ligada a Transformação Digital na Petrobras"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/JoelmaAgileBrazil2023.b7472d1b22aa40a68663.jpg
+  linkedin: https://www.linkedin.com/in/joelma-damasceno-mota-4b12b874
+  lideranca: 1
+
+- name: Jorge Improissi
+  title: Agile Coach / GFT CONSULTING
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Jorge.90c02a39c4704aa1aed0.jpeg
+  linkedin: https://www.linkedin.com/in/improissi/
+  lideranca: 1
+
+- name: Jose JR
+  title: Trainer
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/JoseJR.7afb8b45e8504ec0936c.jpeg
+  linkedin: https://www.linkedin.com/in/realjosejr/
+  lideranca: 1
+
+- name: Joyce Teixeira
+  title: Agilista
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/JoyceTeixeira.e8fc40205d2d41fdb592.jpg
+  linkedin: https://www.linkedin.com/in/joycerodriguesteixeira/
+  raizes: 1
+
+- name: Julia Miloco Balduino
+  title: "Specialist, TikTok"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/0BA17FFE-0D41-4CD5-88E5-046ADD1A1132.c672aef9062d45d2b5cb.jpeg
+  linkedin: https://www.linkedin.com/in/julia-miloco-balduino/
+  raizes: 1
+
+- name: Juliana Dutra
+  title: People e Business Manager na DB (Design + Build)
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/1672871234201.6d3389b7c78542f3b0cb.jpg
+  linkedin: https://www.linkedin.com/in/juliana-dutra-043a7528/
+  lideranca: 1
+
+- name: Juliana Oliveira de Menezes
+  title: Coordenadora de Agilidade
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/WhatsAppImage2022-10-24at14.16.471.df6166343d9b416bbd02.jpeg
+  linkedin: https://www.linkedin.com/in/julianamzes/
+  futuro: 1
+
+- name: Juliano Granadeiro Teixeira
+  title: Agile Coach - GFT
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/JulianoGRanadeiro.d40277587740494d8028.jpg
+  linkedin: https://www.linkedin.com/in/julianogranadeiro/
+  metricas: 1
+
+- name: Juliano Ribeiro
+  title: AKT e AKC na Aspercom Educação Corporativa
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/retrato.655c34bdf3ab4642b445.png
+  linkedin: https://www.linkedin.com/in/julianopauloribeiro/
+  raizes: 1
+
+- name: Laura Consolmagno
+  title: GERENTE DE PROJETOS - BAYER
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/WhatsAppImage2023-04-23at19.27.02.044534a4d2954d1db452.jpeg
+  linkedin: https://www.linkedin.com/in/lauraconsolmagno
+  raizes: 1
+
+- name: Layse Vicente Ammirabile
+  title: Consultora de Diversidade e Inclusão - Consultoria Mais Diversidade
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/FotoLayse-menor.4fb7f50093d449dc84ae.jpg
+  linkedin: https://www.linkedin.com/in/laysevicente/
+  lideranca: 1
+
+- name: Lucas de Barros Gomes
+  title: Agile Business Consultant & Org Designer - NTTData Brasil
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/LucasGomes.a10380bfee564ce293fe.jpeg
+  linkedin: https://www.linkedin.com/in/lgomesam/
+  lideranca: 1
+
+- name: Luciana Macedo Cajaty
+  title: Agile Master - Universidade Federal do Ceará
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/lucianacajaty.f9023124f1c641d48d0a.jpg
+  linkedin: https://www.linkedin.com/in/lucianacajaty/
+  cliente: 1
+  metricas: 1
+
+- name: Luciana Vogas
+  title: Agile Manager
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/foto_recente_Lu.235974ef13114472abad.jpeg
+  linkedin: https://www.linkedin.com/in/luciana-vogas/
+  lideranca: 1
+
+- name: Luiz Coelho
+  title: Consultor de Inovação
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/PSX_20220210_003603.04df18c9f97646e5baf2.jpg
+  linkedin: https://www.linkedin.com/in/luizcoelhome/
+  futuro: 1
+
+- name: Luiz Lima
+  title: Business Advisor | e-Core
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/photo_iq_colour.3b6374acb130447eb338.jpeg
+  linkedin: https://www.linkedin.com/in/lhtlima/
+  lideranca: 1
+
+- name: Maíra do Vale Machado
+  title: Fundadora da Consultoria Maíra do Vale Inovação e Estratégia
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/maira-2.09d62e8e8ba64c6ab4e6.JPG
+  linkedin: https://www.linkedin.com/in/mairadovale/
+  lideranca: 1
+
+- name: Manoel Pimentel Medeiros
+  title: Diretor de Business Agility  para Américas do Grupo GFT
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Manoel-HeadShot-ShortVersion-GFT-510.16b7d28ddae94accbca1.jpg
+  linkedin: https://www.linkedin.com/in/manoelp/
+  lideranca: 1
+
+- name: Marcelo Macedo
+  title: Agile Coach - Sicredi
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Designsemnome26.9c0547dca49a48c7b21c.png
+  linkedin: https://www.linkedin.com/in/marcelo-macedo-1b778531/
+  lideranca: 1
+
+- name: Marco Dubovski
+  title: Gerente Executivo de Produtos na Serasa Experian
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/tempImageiOhOtN.5faa5ca895b248bc9a34.jpg
+  linkedin: https://www.linkedin.com/in/dubovski
+  lideranca: 1
+
+- name: Marcos Garrido
+  title: Founder K21
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/B9039882-0D3E-42DE-8B8B-E6CF27FBEC7F-1620-0000038AD0CE24C9.ca449cd06da64543847f.JPG
+  linkedin: https://www.linkedin.com/in/mgarridobr/
+  raizes: 1
+
+- name: Mariana Vicente Oliveira
+  title: Ux Designer na wBrain
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/WhatsAppImage2023-04-23at12.09.07.d0927d25ac544ced9417.jpeg
+  linkedin: https://www.linkedin.com/in/marianavioli/
+  futuro: 1
+
+- name: Mariana Zaparolli Martins
+  title: Expert Associate Partner na Bain & Company
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/IMG_3419.ce3fab08ae0645538e10.JPG
+  linkedin: https://www.linkedin.com/in/mariana-zaparolli-martins/
+  futuro: 1
+
+- name: Mayra de Souza
+  title: "Transformation Digital, Lean & Agile Expert | Coletivo Ação"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/WhatsAppImage2022-02-17at09.13.04.a40d3afcc71b47c7a007.jpeg
+  linkedin: https://br.linkedin.com/in/mayrarodriguesdesouza
+  futuro: 1
+  cliente: 1
+
+- name: Melina dos Santos
+  title: Head of Technology na SWAP
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/DSC08180.7ce3e7475f254708a7ad.jpg
+  linkedin: https://www.linkedin.com/in/melderaldo/
+  raizes: 1
+
+- name: Michele Prieto
+  title: Especialista em Agilidade de Negócios
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Designsemnome4.a80042d03ad442708187.png
+  linkedin: https://www.linkedin.com/in/michele-reis-prieto-0767101b2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bv76V1ZbdTNCVFmJt%2FgpGXQ%3D%3D
+  lideranca: 1
+
+- name: Mônica Fonseca
+  title: "Enterprise Agile Coach, TCS"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/MAF.bdbb79879401444abe26.JPG
+  linkedin: https://www.linkedin.com/in/monicafonsecabr/
+  cliente: 1
+
+#- name: Mylena de Souza Nascimento
+#  title: Especialista de Agilidade
+#  photo: https://even3.blob.core.windows.net/formulario-inscricao/58773f1b-4669-46ee-a80e-722a942766e1.68b96ca327974b9fa23c.jpg
+#  linkedin: https://www.linkedin.com/in/mylena-souza06/
+#  futuro: 1
+
+- name: Nancy Vieira
+  title: Analista de Cultura de Dados
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/20230427_1719562.2e179df6bf4845898941.jpg
+  linkedin: https://www.linkedin.com/in/nancy-vieira/
+  raizes: 1
+
+- name: Naomy Oliveira
+  title: Diretora - Governo do Estado do Rio Grande do Sul
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/WhatsAppImage2023-04-23at11.57.25.f74c4b342d0f48b2808a.jpeg
+  linkedin: https://www.linkedin.com/in/naomyoliveira
+  lideranca: 1
+
+- name: Natalia Manha
+  title: Gerente de Inovação
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/IMG_1488.8f40fa29bde84b1b8dd7.jpeg
+  linkedin: https://www.linkedin.com/in/nataliamanha
+  lideranca: 1
+
+- name: Nathalia Arruda
+  title: Gerente de Inovação
+  photo: https://media.licdn.com/dms/image/D4E03AQH9x8lmQsyQsA/profile-displayphoto-shrink_800_800/0/1682643644551?e=1701907200&v=beta&t=Yyud1JZIvSCTTZ1U1nmfPvEZH0NnfbmMfO8ULvo9UZg
+  linkedin: https://www.linkedin.com/in/nathaliaarrudain/
+  lideranca: 1
+
+#- name: Patrícia Ellen Pires Reinert
+#  title: #OpenToWork
+#  photo: https://even3.blob.core.windows.net/formulario-inscricao/IMG_0214.9635c31e2a754fbba47b.jpg
+#  linkedin: https://www.linkedin.com/in/patriciaendres/
+#  lideranca: 1
+
+- name: Paula Viani
+  title: Fundadora - Agile for Teachers
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Designsemnome1.35e5c8e1bb2148d38022.png
+  linkedin: https://www.linkedin.com/in/paulaviani/
+  futuro: 1
+
+- name: Pedro Luiz Martins Cruz
+  title: Agile Coach - Synergyc
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/PedroLuiz.5b0ffcc201c649b5a947.png
+  linkedin: https://www.linkedin.com/in/pedro-luiz-m-cruz/
+  raizes: 1
+
+- name: Priscila Chagas
+  title: "Agile & Product Expert, Bain & Company"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/PIC01236.05d4b8353db44116bd05.jpg
+  linkedin: https://www.linkedin.com/in/aprichagas/
+  futuro: 1
+
+- name: Rafael Imhof
+  title: Product Owner na Central Ailos
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/_V_06255.b25448af2d3f44099d6a.jpeg
+  linkedin: https://www.linkedin.com/in/rafaimhof/
+  cliente: 1
+
+- name: Raphael Donaire Albino
+  title: Gerente de RH no Nubank
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/foto_2022.7ce7cd20937b4a66b660.JPG
+  linkedin: https://www.linkedin.com/in/rapha-albino/
+  futuro: 1
+
+- name: Raquel Rodrigues Silva
+  title: "Consultora de Metodologias de Colaboração, Descoberta e Design na PETROBRAS"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/WhatsAppImage2023-02-21at19.12.451.5177da4c3ac24727b1ff.jpeg
+  linkedin: https://www.linkedin.com/in/raquel-rodrigues-silva-99842347
+  lideranca: 1
+
+- name: Rebeca Cunha
+  title: Agile coach- CompassUol
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/eu.11e343e4553f43efa1f0.jpeg
+  linkedin: https://www.linkedin.com/in/rebecamcunha/
+  metricas: 1
+
+- name: Renata Monteiro
+  title: Co-fundadora e Head de operações
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/renata.9b9a0e8b718a4100927b.jpg
+  linkedin: https://www.linkedin.com/in/renata-luciria-monteiro-49b6b3140/
+  futuro: 1
+  cliente: 1
+
+- name: Rhaissa Ferreira
+  title: Agile Master - getninjas
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/1662219002306.6f24285953434b2c967e.jpg
+  linkedin: https://www.linkedin.com/in/rhaissa-ferreira/
+  lideranca: 1
+  raizes: 1
+
+- name: Rodrigo Bastos da Silva
+  title: Org Designer
+  photo: /2025/assets/images/speakers/rodrigo-bastos.jpg
+  linkedin: https://www.linkedin.com/in/rodbastos/
+  futuro: 1
+
+- name: Rodrigo Cabrera Castaldoni
+  title: Consultor Agile Health Tech
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/rodrigo.69f26946d650436a8430.jpg
+  linkedin: https://www.linkedin.com/in/rodrigo-cabrera-castaldoni-575630181/
+  futuro: 1
+
+- name: Rodrigo Yoshima
+  title: "CEO, AKT e AKC na Aspercom"
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/yoshima.8e38b4b30dcf4f21801f.jpeg
+  linkedin: https://www.linkedin.com/in/rodrigoy/
+  raizes: 1
+
+- name: Samuel Moro Bergamo Cavalcante
+  title: Partner and Trainer
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Designsemnome5.0d0d50a403e24f07ae49.png
+  linkedin: https://www.linkedin.com/in/samuelmbc/
+  lideranca: 1
+
+- name: Stephanie Santos Benjamin
+  title: Agilista no Nubank
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/4B79AB79-2153-425E-B90C-8B89AEA29148.59aa5516ef7a4df7bd61.jpg
+  linkedin: https://www.linkedin.com/in/stephanie-s-benjamin/
+  metricas: 1
+
+- name: Tami Lima
+  title: Consultora na Target Teal
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/tami-1.b1ea8f48678443a9b6dd.jpeg
+  linkedin: https://www.linkedin.com/in/tamilima/
+  futuro: 1
+
+- name: Thais Keiko
+  title: APMO - Banco Carrefour
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/WhatsAppImage2023-04-19at08.59.00.2db1d184c82043da9a40.jpeg
+  linkedin: https://www.linkedin.com/in/tkarakaki/
+  raizes: 1
+  
+- name: Thalita Fabro
+  title: Head de Estratégia e Agilidade no Banco Carrefour
+  photo: /2025/assets/images/speakers/thalita-fabro.jpeg
+  linkedin: https://www.linkedin.com/in/thalita-n-fabro-5b3a9953
+  lideranca: 1
+
+- name: Uedson Carlos
+  title: Agile Coach Banco Carrefour
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/20200726_152632.2c786373431742289838.jpg
+  linkedin: https://www.linkedin.com/in/uedsoncarlos/
+  metricas: 1
+
+- name: Victor Vidal
+  title: Head de Gestão de Portfólio e Métodos Ágeis
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/VictorVidal.4f919f0ed27449c3bb5b.jpg
+  linkedin: https://www.linkedin.com/in/victor-vidal-agile/
+  metricas: 1
+
+- name: Vinicius Campos Silva
+  title: Agente de Transformação - Itaú Unibanco
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/me-new.f4cbf24e0f834e6fb63a.jpg
+  linkedin: https://www.linkedin.com/in/viniciuscampossilva/
+  lideranca: 1
+
+- name: Wagner Fusca Voltz
+  title: Objective
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Capturar12-Copia.6b43ea7dff044ab98b76.png
+  linkedin: https://www.linkedin.com/in/wagnerfusca/
+  metricas: 1
+  raizes: 1
+
+- name: Yóris Linhares de Souza
+  title: orgganica
+  photo: https://even3.blob.core.windows.net/formulario-inscricao/Yoris-1-Copy.08f4f1d2a9724179b90b.png
+  linkedin: https://www.linkedin.com/in/yorisls/
+  lideranca: 1
+  

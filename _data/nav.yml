@@ -1,0 +1,49 @@
+- name: nav.home
+  namespace: home
+  production: true
+  visible: true
+
+- name: nav.about
+  namespace: about
+  production: true
+  visible: true
+
+- name: nav.program
+  namespace: program
+  production: true
+  visible: true
+
+- name: nav.sponsorship
+  namespace: sponsorship
+  production: true
+  visible: true
+
+- name: nav.wbma
+  namespace: wbma
+  production: true
+  visible: false
+
+- name: nav.location
+  namespace: location
+  production: true
+  visible: false
+
+- name: nav.code_of_conduct
+  namespace: code_of_conduct
+  production: true
+  visible: true
+
+- name: nav.diversity_and_inclusion
+  namespace: diversity_and_inclusion
+  production: true
+  visible: true
+
+- name: nav.faq
+  namespace: faq
+  production: false
+  visible: false
+
+- name: nav.faq_speakers
+  namespace: faq_speakers
+  production: false
+  visible: false

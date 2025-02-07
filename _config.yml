@@ -1,0 +1,117 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Agile Brazil 2025
+author: Agile Brazil
+generator: Agile Brazil
+lang: pt-BR
+languages: ["pt-BR", "en"]
+city: São Paulo
+state: SP
+venue: Centro de Convenções AM Malls Sergipe
+dates: 9 a 11/outubro, 2025
+
+emails:
+  - contato@agilebrazil.com
+  - patrocinios@agilebrazil.com
+
+seo:
+  author_1: Agile Alliance Brazil
+  author_2: Agile Brazil volunteers
+  description: Site da conferência Agile Brazil 2025
+  keywords: agile, agilidade, conferência, evento, product, coding, práticas, cultura, pessoas, gestão, aprendizado
+
+sistemas:
+  submissoes: "https://www.even3.com.br/agilebrazil2025/"
+  inscricoes: "https://www.even3.com.br/agilebrazil2025/"
+
+forms:
+  community: "https://forms.gle/Uj1GhBhwxGuvC6iM6"
+
+sponsorship:
+  briefing: "https://docs.google.com/presentation/d/1zxPhE8_9CaSnQyul0x0zDEfEMfmjnfTrruMe3VYxnu4"
+  calculator: "https://docs.google.com/spreadsheets/d/1NVqC6tvm-qB1VBNCDdeydA7aVHxlVtHbPREZvI0PDhY"
+
+url: "https://www.agilebrazil.com"
+baseurl: "/2025" # the subpath of your site, e.g. /blog
+
+cotas:
+#  - title
+#  - diamante
+  - ouro
+#  - prata
+  - bronze
+  - apoio
+  - comunidade
+#  - diversidade
+  - comunidade apoio
+
+permalink: :slug
+theme: jekyll-theme-minimal
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+sass:
+  style: compressed
+  sass_dir: assets/_sass
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gravatar
+
+include:
+  - _pages
+  - .htaccess
+  - favicon.ico
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - .github/
+  - .sass-cache/
+  - .jekyll-cache/
+  - vendor/
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

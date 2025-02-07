@@ -1,0 +1,21 @@
+---
+title: nav.faq
+namespace: faq
+permalink: /faq
+permalink_en: /faq
+---
+<div id="main" class="wrapper">
+  <div class="inner faq">
+    <header class="heading major">
+      <h1>{% t nav.faq %}</h1>
+    </header>
+
+    <dl>
+      {% assign sessionFaq = site.data.faq | where: "session", "faq-general" %}
+      {% for faq in sessionFaq %}         
+        <dt>{{faq.question}}</dt>
+        <dd>{{faq.answer}}</dd>
+      {% endfor %}
+    </dl>
+  </div>
+</div>

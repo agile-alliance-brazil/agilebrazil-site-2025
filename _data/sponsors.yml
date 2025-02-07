@@ -1,0 +1,143 @@
+#- name: B3
+#  logo: /assets/images/sponsors/sponsor-logo-b3.png
+#  url: https://www.b3.com.br/
+#  level: title
+
+#- name: Thoughtworks
+#  logo: /assets/images/sponsors/sponsor-thoughtworks.png
+#  url: https://www.thoughtworks.com/pt-br
+#  level: diamante
+
+- name: Businessmap
+  logo: /assets/images/sponsors/sponsor-businessmap.png
+  url: https://businessmap.io/pt
+  level: ouro
+
+#- name: DB
+#  logo: /assets/images/sponsors/sponsor-logo-bd.png
+#  url: https://db.tec.br/
+#  level: prata
+
+#- name: Suzano
+#  logo: /assets/images/sponsors/sponsor-logo-suzano.png
+#  url: https://www.suzano.com.br
+#  level: bronze
+
+- name: Bain & company
+  logo: /assets/images/sponsors/sponsor-bain.png
+  url: https://www.bain.com/pt-br/
+  level: bronze
+
+- name: Perto
+  logo: /assets/images/sponsors/Logo_Perto_Original.png
+  url: https://perto.network/
+  level: apoio
+
+#- name: Wildtech
+#  logo: /assets/images/sponsors/sponsor-wildtech.png
+#  url: https://www.wildtech.com.br/
+#  level: comunidade
+
+#- name: Synergyc
+#  logo: /assets/images/sponsors/sponsor-synergyc.png
+#  url: https://www.synergyc.co/
+#  level: comunidade
+
+#- name: Agile Joinville
+#  logo: /assets/images/sponsors/sponsor-agile-joinville.png
+#  url: https://www.instagram.com/agilejoinville/
+#  level: comunidade apoio
+
+#- name: Pensando Agilidade
+#  logo: /assets/images/sponsors/sponsor-pensando-agilidade-2.jpeg
+#  url: https://www.instagram.com/pensandoagilidade/
+#  level: comunidade apoio
+
+#- name: Agile Minas
+#  logo: /assets/images/sponsors/sponsor-agile-agile-minas.png
+#  url: https://www.instagram.com/agileminas/
+#  level: comunidade apoio
+
+#- name: Agile Campinas
+#  logo: /assets/images/sponsors/sponsor-agile-campinas.png
+#  url: https://www.instagram.com/agilecampinas/
+#  level: comunidade apoio
+
+#- name: Agilistas em ação
+#  logo: /assets/images/sponsors/sponsor-agilistas-em-acao.png
+#  url: https://www.youtube.com/channel/UCq9x5UL5HJbQzFyv8aasKoA
+#  level: comunidade apoio
+
+- name: Pipoca Agíl
+  logo: /assets/images/sponsors/sponsor-agile-pipoca-agil.png
+  url: https://www.instagram.com/pipocaagil/
+  level: comunidade apoio
+
+- name: Software Zen
+  logo: /assets/images/sponsors/sponsor-softwarezen.png
+  url: https://softwarezen.com.br/
+  level: comunidade apoio
+
+#- name: Agilidade Preta
+#  logo: /assets/images/sponsors/sponsor-agilidade-preta.png
+#  level: comunidade apoio
+
+#- name: Lean Coffee São Paulo
+#  logo: /assets/images/sponsors/sponsor-lean-coffee-sao-paulo.jpeg
+#  url: https://www.meetup.com/pt-BR/lean-coffee-sao-paulo/
+#  level: comunidade apoio
+
+#- name: Jornada colaborativa
+#  logo: /assets/images/sponsors/sponsor-jornada-colaborativa.png
+#  url: https://jornadacolaborativa.com.br/
+#  level: comunidade apoio
+
+#- name: Agenda do Scrum Master
+#  logo: /assets/images/sponsors/sponsor-agenda-do-scrum-master.jpg
+#  url: http://staging.agilebrazil.com/2025/
+#  level: comunidade apoio
+
+#- name: The Liberators
+#  logo: /assets/images/sponsors/sponsor-the-Liberators-BR.png
+#  url: https://theliberators.com/
+#  level: comunidade apoio
+
+#- name: The Liberators
+#  logo: /assets/images/sponsors/sponsor-the-Liberators-BR-9.png
+#  url: https://theliberators.com/
+#  level: comunidade apoio
+
+#- name: The Liberators
+#  logo: /assets/images/sponsors/sponsor-the-Liberators-BR-9.png
+#  url: https://theliberators.com/
+#  level: comunidade apoio
+
+- name: Universo Ágil
+  logo: /assets/images/sponsors/sponsor-universo-agil.png
+  url: https://www.universoagilhub.com/
+  level: comunidade apoio
+
+- name: Open Kanban Community
+  logo: /assets/images/sponsors/sponsor-open-kaban.png
+  url: https://www.instagram.com/openkanbancommunity/
+  level: comunidade apoio
+
+#- name: Agile Serra Gaúcha
+#  logo: /assets/images/sponsors/sponsor-agile-serra-gaucha.png
+#  url: https://www.instagram.com/agileserragaucha/
+#  level: comunidade apoio
+
+- name: Wildtech
+  logo: /assets/images/sponsors/sponsor-wildtech.png
+  url: https://www.wildtech.com.br/
+  level: comunidade
+
+- name: Synergyc
+  logo: /assets/images/sponsors/sponsor-synergyc.png
+  url: https://www.synergyc.co/
+  level: comunidade
+
+#- name: Bain & company
+#  logo: /assets/images/sponsors/sponsor-bain.png
+#  url: https://www.bain.com/pt-br/
+#  level: diversidade
