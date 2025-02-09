@@ -4379,14 +4379,18 @@ input, select, textarea {
 	background-color: var(--ab-logo-azul-escuro);
 	color: rgba(255, 255, 255, 0.5);
 	/*background-attachment: fixed;		*/
-	background-image: url("../images/banner-2025-1.png");
-	background-position: bottom center;
+	background-image: url("../images/banner-rio.jpg");
+	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	cursor: default;
 	text-align: center;
 	min-height: 70vh;
 	width: 100%;
+}
+
+.back-banner {
+	min-height: 70vh;
 }
 
 #banner.aracaju {
@@ -4701,7 +4705,9 @@ input, select, textarea {
 				/* JGT height: 80vh; */
 				min-height: 35rem;
 			}
-
+			.back-banner {
+				min-height: 35rem;
+			}
 				#banner > .inner {
 					margin: 0 auto;
 					max-width: 35rem;
@@ -4737,7 +4743,9 @@ input, select, textarea {
 				height: auto;
 				min-height: 18rem;
 			}
-
+			.back-banner {
+				min-height: 18rem;
+			}
 				#banner > .inner {
 					padding: 0 1.5rem;
 				}

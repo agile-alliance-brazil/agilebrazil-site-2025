@@ -8,10 +8,10 @@
 #  url: https://www.thoughtworks.com/pt-br
 #  level: diamante
 
-- name: Businessmap
-  logo: /assets/images/sponsors/sponsor-businessmap.png
-  url: https://businessmap.io/pt
-  level: ouro
+#- name: Businessmap
+#  logo: /assets/images/sponsors/sponsor-businessmap.png
+#  url: https://businessmap.io/pt
+#  level: ouro
 
 #- name: DB
 #  logo: /assets/images/sponsors/sponsor-logo-bd.png
@@ -23,15 +23,15 @@
 #  url: https://www.suzano.com.br
 #  level: bronze
 
-- name: Bain & company
-  logo: /assets/images/sponsors/sponsor-bain.png
-  url: https://www.bain.com/pt-br/
-  level: bronze
+#- name: Bain & company
+#  logo: /assets/images/sponsors/sponsor-bain.png
+#  url: https://www.bain.com/pt-br/
+#  level: bronze
 
-- name: Perto
-  logo: /assets/images/sponsors/Logo_Perto_Original.png
-  url: https://perto.network/
-  level: apoio
+#- name: Perto
+#  logo: /assets/images/sponsors/Logo_Perto_Original.png
+#  url: https://perto.network/
+#  level: apoio
 
 #- name: Wildtech
 #  logo: /assets/images/sponsors/sponsor-wildtech.png
@@ -68,15 +68,15 @@
 #  url: https://www.youtube.com/channel/UCq9x5UL5HJbQzFyv8aasKoA
 #  level: comunidade apoio
 
-- name: Pipoca Agíl
-  logo: /assets/images/sponsors/sponsor-agile-pipoca-agil.png
-  url: https://www.instagram.com/pipocaagil/
-  level: comunidade apoio
+#- name: Pipoca Agíl
+#  logo: /assets/images/sponsors/sponsor-agile-pipoca-agil.png
+#  url: https://www.instagram.com/pipocaagil/
+#  level: comunidade apoio
 
-- name: Software Zen
-  logo: /assets/images/sponsors/sponsor-softwarezen.png
-  url: https://softwarezen.com.br/
-  level: comunidade apoio
+#- name: Software Zen
+#  logo: /assets/images/sponsors/sponsor-softwarezen.png
+#  url: https://softwarezen.com.br/
+#  level: comunidade apoio
 
 #- name: Agilidade Preta
 #  logo: /assets/images/sponsors/sponsor-agilidade-preta.png
@@ -112,30 +112,30 @@
 #  url: https://theliberators.com/
 #  level: comunidade apoio
 
-- name: Universo Ágil
-  logo: /assets/images/sponsors/sponsor-universo-agil.png
-  url: https://www.universoagilhub.com/
-  level: comunidade apoio
+#- name: Universo Ágil
+#  logo: /assets/images/sponsors/sponsor-universo-agil.png
+#  url: https://www.universoagilhub.com/
+#  level: comunidade apoio
 
-- name: Open Kanban Community
-  logo: /assets/images/sponsors/sponsor-open-kaban.png
-  url: https://www.instagram.com/openkanbancommunity/
-  level: comunidade apoio
+#- name: Open Kanban Community
+#  logo: /assets/images/sponsors/sponsor-open-kaban.png
+#  url: https://www.instagram.com/openkanbancommunity/
+#  level: comunidade apoio
 
 #- name: Agile Serra Gaúcha
 #  logo: /assets/images/sponsors/sponsor-agile-serra-gaucha.png
 #  url: https://www.instagram.com/agileserragaucha/
 #  level: comunidade apoio
 
-- name: Wildtech
-  logo: /assets/images/sponsors/sponsor-wildtech.png
-  url: https://www.wildtech.com.br/
-  level: comunidade
+#- name: Wildtech
+#  logo: /assets/images/sponsors/sponsor-wildtech.png
+#  url: https://www.wildtech.com.br/
+#  level: comunidade
 
-- name: Synergyc
-  logo: /assets/images/sponsors/sponsor-synergyc.png
-  url: https://www.synergyc.co/
-  level: comunidade
+#- name: Synergyc
+#  logo: /assets/images/sponsors/sponsor-synergyc.png
+#  url: https://www.synergyc.co/
+#  level: comunidade
 
 #- name: Bain & company
 #  logo: /assets/images/sponsors/sponsor-bain.png
