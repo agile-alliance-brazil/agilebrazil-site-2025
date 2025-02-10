@@ -4397,9 +4397,9 @@ input, select, textarea {
 	background-image: url("../images/banner-aracaju.png") !important;
 }
 
-#banner > .inner {
+/*#banner > .inner {
 		display: block !important;
-	}
+	}*/
 
 #banner > .inner {
 	-moz-transition: -moz-transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
@@ -4418,7 +4418,8 @@ input, select, textarea {
 }
 
 #banner header {
-	max-width: 60%;
+	max-width: 50%;
+	padding: 2%;
 }
 
 #banner header img {
@@ -4442,6 +4443,11 @@ input, select, textarea {
 	#banner .inner p.conference-dates, #banner .inner p.conference-city {
 		font-size: 1em !important;
 		font-weight: bold;
+	}
+
+	#banner header {
+		max-width: 75%;
+		padding: 2%;
 	}
 
 }
