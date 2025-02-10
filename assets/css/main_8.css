@@ -4379,7 +4379,7 @@ input, select, textarea {
 	background-color: var(--ab-logo-azul-escuro);
 	color: rgba(255, 255, 255, 0.5);
 	/*background-attachment: fixed;		*/
-	background-image: url("../images/banner-rio.jpg");
+	background-image: url("../images/banner-2025-3.jpg");
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4397,11 +4397,9 @@ input, select, textarea {
 	background-image: url("../images/banner-aracaju.png") !important;
 }
 
-@media screen and (max-width: 980px) {
-	#banner > .inner {
+#banner > .inner {
 		display: block !important;
 	}
-}
 
 #banner > .inner {
 	-moz-transition: -moz-transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
@@ -4435,7 +4433,7 @@ input, select, textarea {
 }
 
 #banner .inner p.conference-dates, #banner .inner p.conference-city {
-	font-size: 2em;
+	font-size: 2em !important;
 	font-weight: bold;
 }
 
