@@ -4437,6 +4437,15 @@ input, select, textarea {
 	font-weight: bold;
 }
 
+@media screen and (max-width: 980px) {
+
+	#banner .inner p.conference-dates, #banner .inner p.conference-city {
+		font-size: 1em !important;
+		font-weight: bold;
+	}
+
+}
+
 #banner .inner .conference-dates {
 	color: #ffa505;
 }
