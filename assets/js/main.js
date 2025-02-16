@@ -130,5 +130,61 @@
 				}, 2000);
 			}*/
 
+			$(document).ready(function() {
+				$("#line2021").on("click", function() {
+					if ($(".line2021")[0].style.display == 'block') {
+						$("#line2021 .keyboard_arrow_up").toggle("slow", function () {
+							$("#line2021 .keyboard_arrow_down").toggle("slow");
+						});
+					  }
+					  if ($(".line2021")[0].style.display == 'none' || $(".line2021")[0].style.display == '') {
+						$("#line2021 .keyboard_arrow_down").toggle("slow", function () {
+							$("#line2021 .keyboard_arrow_up").toggle("slow");
+						});
+					  }
+					  
+				  $(".line2021").toggle("slow");
+				  
+				});
+				$("#line2022").on("click", function() {
+					if ($(".line2022")[0].style.display == 'block') {
+						$("#line2022 .keyboard_arrow_up").toggle("slow", function () {
+							$("#line2022 .keyboard_arrow_down").toggle("slow");
+						});
+					  }
+					  if ($(".line2022")[0].style.display == 'none' || $(".line2022")[0].style.display == '') {
+						$("#line2022 .keyboard_arrow_down").toggle("slow", function () {
+							$("#line2022 .keyboard_arrow_up").toggle("slow");
+						});
+					  }
+					$(".line2022").toggle("slow");
+				  });
+				  $("#line2023").on("click", function() {
+					if ($(".line2023")[0].style.display == 'block') {
+						$("#line2023 .keyboard_arrow_up").toggle("slow", function () {
+							$("#line2023 .keyboard_arrow_down").toggle("slow");
+						});
+					  }
+					  if ($(".line2023")[0].style.display == 'none' || $(".line2023")[0].style.display == '') {
+						$("#line2023 .keyboard_arrow_down").toggle("slow", function () {
+							$("#line2023 .keyboard_arrow_up").toggle("slow");
+						});
+					  }
+					$(".line2023").toggle("slow");
+				  });
+				  $("#line2024").on("click", function() {
+					if ($(".line2024")[0].style.display == 'block') {
+						$("#line2024 .keyboard_arrow_up").toggle("slow", function () {
+							$("#line2024 .keyboard_arrow_down").toggle("slow");
+						});
+					  }
+					  if ($(".line2024")[0].style.display == 'none' || $(".line2024")[0].style.display == '') {
+						$("#line2024 .keyboard_arrow_down").toggle("slow", function () {
+							$("#line2024 .keyboard_arrow_up").toggle("slow");
+						});
+					  }
+					$(".line2024").toggle("slow");
+				  });
+			  });
 
 })(jQuery);
