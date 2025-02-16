@@ -15,8 +15,8 @@
 /* Footer default sizes, desktop */
 
 #footer .sponsorsInLevel img.title {
-  max-width: 245px;
-  max-height: 245px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 #footer .sponsorsInLevel img.diamante {
@@ -62,8 +62,8 @@
 @media screen and (max-width: 736px) {
   /* Footer default sizes, mobile */
   #footer .sponsorsInLevel img.title {
-    max-width: 245px;
-    max-height: 245px;
+    max-width: 400px;
+    max-height: 400px;
   }
 
   #footer .sponsorsInLevel img.diamante {
