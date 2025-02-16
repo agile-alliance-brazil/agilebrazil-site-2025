@@ -42,4 +42,4 @@ jobs:
         run: ssh-keyscan -H agilebrazil.com >> ~/.ssh/known_hosts
       
       - name: 🚀 deploy on production
-        run: rsync -zav --progress --delete -e 'ssh -o StrictHostKeyChecking=no' _site/ agilebrazil@agilebrazil.com:agilebrazil.com/2024
+        run: rsync -zav --progress --delete -e 'ssh -o StrictHostKeyChecking=no' _site/ agilebrazil@agilebrazil.com:agilebrazil.com/2025
