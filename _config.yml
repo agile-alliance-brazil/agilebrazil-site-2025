@@ -53,15 +53,15 @@ url: "https://www.agilebrazil.com"
 baseurl: "/2025" # the subpath of your site, e.g. /blog
 
 cotas:
-#  - title
+  - title
 #  - diamante
-  - ouro
+#  - ouro
 #  - prata
-  - bronze
-  - apoio
-  - comunidade
+#  - bronze
+#  - apoio
+#  - comunidade
 #  - diversidade
-  - comunidade apoio
+#  - comunidade apoio
 
 permalink: :slug
 theme: jekyll-theme-minimal

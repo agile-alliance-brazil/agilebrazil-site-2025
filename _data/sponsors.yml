@@ -1,7 +1,7 @@
-#- name: B3
-#  logo: /assets/images/sponsors/sponsor-logo-b3.png
-#  url: https://www.b3.com.br/
-#  level: title
+- name: the Scrum Alliance
+  logo: /assets/images/sponsors/scrum-alliance.png
+  url: https://www.scrumalliance.org
+  level: title
 
 #- name: Thoughtworks
 #  logo: /assets/images/sponsors/sponsor-thoughtworks.png
