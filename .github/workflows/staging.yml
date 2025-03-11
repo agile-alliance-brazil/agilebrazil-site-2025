@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📂 setup
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
@@ -33,7 +33,7 @@ jobs:
           cp -f .htaccess _site/
 
       - name: 🔐 Install SSH Key
-        uses: shimataro/ssh-key-action@v2
+        uses: shimataro/ssh-key-action@v3
         with:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
