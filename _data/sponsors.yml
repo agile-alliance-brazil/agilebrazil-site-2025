@@ -13,10 +13,10 @@
 #  url: https://businessmap.io/pt
 #  level: ouro
 
-#- name: DB
-#  logo: /assets/images/sponsors/sponsor-logo-bd.png
-#  url: https://db.tec.br/
-#  level: prata
+- name: K21
+  logo: /assets/images/sponsors/k21.png
+  url: https://br.k21.global/
+  level: prata
 
 #- name: Suzano
 #  logo: /assets/images/sponsors/sponsor-logo-suzano.png
