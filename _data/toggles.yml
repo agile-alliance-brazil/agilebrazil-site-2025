@@ -6,7 +6,7 @@ faq: true
 covid: false
 diversity_and_inclusion_coupon: false
 home_submissions: false
-initial_batch_call: false
+initial_batch_call: true
 community_forms: false
 event_schedule: false
 sos_rs: false
