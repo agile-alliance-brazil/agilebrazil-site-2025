@@ -51,7 +51,7 @@ permalink: /
 
 <!-- Callouts -->
 {% if site.data.toggles.home_submissions %}
-  <section class="wrapper home-submissions">
+  <section class="wrapper home-submissions style1">
     <div class="inner">
       <header class="heading">
         <h2 class="regular-call-text">{% t texts.submissions_are_open %}</h2>
@@ -63,6 +63,45 @@ permalink: /
       </ul>
     </div>
   </section>
+
+<section id="home-trilhas" class="wrapper">
+  <div class="inner">
+    <header class="heading major">
+      <h2>TRILHAS</h2>
+    </header>
+    <div class="spotlights">
+      <div class="spotlight">
+        <article class="content trilha-raiz-agilidade">
+          <div class="header-trilha">
+            <h3>Eficiência, Inovação e Transformação Digital</h3>
+          </div>
+          <div class="body-trilha">
+            <p>Nesta trilha, vamos falar sobre como as empresas podem fazer mais com menos, sem perder a inovação de vista. Seja adotando novas tecnologias, otimizando processos ou promovendo uma cultura de melhoria contínua, o foco aqui é encontrar formas inteligentes de trabalhar melhor e acompanhar a transformação digital sem sufoco.</p>
+          </div>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content trilha-lideranca">
+          <div class="header-trilha">
+            <h3>Design e Gestão de Produtos e Projetos</h3>
+          </div>
+          <div class="body-trilha">
+            <p>Criar produtos e projetos de impacto vai muito além de post-its coloridos ou sprints acelerados. Aqui, vamos falar sobre como tirar ideias do papel com responsabilidade, profundidade e alinhamento estratégico real. Design centrado no cliente, desenvolvimento ágil e gestão de projetos não são modinhas – são ferramentas poderosas quando bem aplicadas.</p>
+          </div>
+        </article>
+      </div>
+      <div class="spotlight">
+        <article class="content trilha-metricas">
+          <div class="header-trilha">
+            <h3>Liderança, Estratégia e Gestão da Mudança</h3>
+          </div>
+          <div class="body-trilha">
+            <p>Liderar e manter a estratégia alinhada em um mundo em constante mudança é um desafio. Aqui, vamos discutir como equilibrar governança e flexibilidade, como comunicar direções claras para os times e como criar um ambiente onde as decisões são rápidas, inteligentes e focadas em resultados.</p>
+          </div>
+        </article>
+      </div>
+  </div>
+</section>
 {% else %}
 
   <!-- <section id="program-index" class="wrapper style1">
@@ -108,6 +147,8 @@ permalink: /
     </div>
   </section>
 {% endif %}
+
+
 
 <!--
 <section id="home-trilhas" class="wrapper">
