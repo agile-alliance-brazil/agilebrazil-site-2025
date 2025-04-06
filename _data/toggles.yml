@@ -5,7 +5,7 @@ program: false
 faq: true
 covid: false
 diversity_and_inclusion_coupon: false
-home_submissions: false
+home_submissions: true
 initial_batch_call: true
 community_forms: false
 event_schedule: false
