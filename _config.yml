@@ -39,7 +39,7 @@ seo:
   keywords: agile, agilidade, conferência, evento, product, coding, práticas, cultura, pessoas, gestão, aprendizado
 
 sistemas:
-  submissoes: "https://www.even3.com.br/evento/login?ReturnUrl=%2Fparticipante%2Ftrabalhocientifico%2Fsubmissao%2F"
+  submissoes: "https://www.even3.com.br/evento/login?evento=agilebrazil2025&lang=pt&utm_source=Link+da+Bio+do+RD+Station&utm_medium=social&utm_campaign=CTA+no+Link+da+Bio"
   inscricoes: "https://www.even3.com.br/agilebrazil2025/"
 
 forms:
