@@ -18,6 +18,11 @@
   production: true
   visible: true
 
+- name: nav.community
+  namespace: community
+  production: true
+  visible: true
+
 - name: nav.wbma
   namespace: wbma
   production: true
