@@ -19,8 +19,188 @@ permalink_en: /community
     <p><strong>Convidamos você a se conectar com essas comunidades, fortalecendo de maneira genuína e colaborativa os laços que nos unem e potencializando a transformação no ecossistema ágil.</strong></p>
 
     <div>
+       <!-- 
+      <div class="profiles session-speakers">
+
+        {% for speaker in site.data.speakers %}
+        <div class="profile">
+          <div  style="display: none" class="image-keynotes">
+            <img class="image-speaker" src="{{speaker.photo}}" alt="{% t labels.photo_of %} {{speaker.name}}" />
+          </div>
+          <div class="image-keynotes" style="width: 125px !important;
+          height: 125px !important;
+          border-radius: 50% !important;
+          margin: auto;
+          background-image: url({{speaker.photo}});
+          background-size: cover;" alt="{% t labels.photo_of %} {{speaker.name}}">
+          </div>
+          <p><b>{{ speaker.name }}</b></p>
+          <p>{{ speaker.minibio }}</p>
+          <ul class="icons hastag">
+            {% if speaker.raizes %}
+              <li><span class="hastag-speakers raizes">#Raízes da Agilidade</span></li>
+            {% endif %}
+            {% if speaker.lideranca %}
+              <li><span class="hastag-speakers lideranca">#Liderança e Agilidade Estratégica</span></li>
+            {% endif %}
+            {% if speaker.metricas %}
+              <li><span class="hastag-speakers metrica">#Métricas e Inteligência com Dados</span></li>
+            {% endif %}
+            {% if speaker.cliente %}
+              <li><span class="hastag-speakers cliente">#Produtos e Foco no Cliente</span></li>
+            {% endif %}
+            {% if speaker.futuro %}
+              <li><span  class="hastag-speakers futuro">#Futuro da Agilidade</span></li>
+            {% endif %}
+          </ul>
+          <ul class="icons">
+            {% if speaker.linkedin %}
+              <li><a href="{{ speaker.linkedin }}" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+            {% endif %}
+            {% if speaker.twitter %}
+              <li><a href="{{ speaker.twitter }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+            {% endif %}
+            {% if speaker.site %}
+              <li><a href="{{ speaker.site }}" class="icon solid fas fa-link" target="_blank"><span class="label">Website</span></a></li>
+            {% endif %}
+            {% if speaker.spotify %}
+              <li><a href="{{ speaker.spotify }}" class="icon brands fa-spotify" target="_blank"><span class="label">Podcast</span></a></li>
+            {% endif %}
+          </ul>
+        </div>
+        {% endfor %}
+
+      </div> -->
       <h3>Tecnologia</h3>
-      <img src="https://agilebrazil.com/2025/assets/images/comunidade/tecnologia.png" alt="Comunidade de Tecnologia" class="image fit" />
+
+       <div class="profiles session-speakers community">
+
+        <div class="profile">
+          <div  class="image-keynotes">
+            <img style="max-width: 175px !important;
+          max-height: 175px !important;
+          border-radius: 0% !important;" class="image-speaker" src="/2025/assets/images/logo-devpira.png"/>
+          </div>
+          <!--<div class="image-keynotes" style="max-width: 125px !important;
+          max-height: 125px !important;
+          margin: auto;
+          height: auto !important;
+          width: 125px !important;
+          background-image: url(/2025/assets/images/logo-devpira.png);
+          background-size: cover;" alt="{% t labels.photo_of %} {{speaker.name}}">
+          </div>-->
+          <p><b>DEVPIRA</b></p>
+          <ul class="icons">
+              <li><a href="https://www.linkedin.com/company/devpira/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+              <li><a href="https://www.instagram.com/devpira/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+              <!--<li><a href="{{ speaker.twitter }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+              <li><a href="{{ speaker.site }}" class="icon solid fas fa-link" target="_blank"><span class="label">Website</span></a></li>
+              <li><a href="{{ speaker.spotify }}" class="icon brands fa-spotify" target="_blank"><span class="label">Podcast</span></a></li>-->
+          </ul>
+        </div>
+
+        <div class="profile">
+          <div  class="image-keynotes">
+            <img style="max-width: 175px !important;
+          max-height: 175px !important;
+          border-radius: 0% !important;" class="image-speaker" src="/2025/assets/images/tech-in-rio.png"/>
+          </div>
+          <!--<div class="image-keynotes" style="max-width: 125px !important;
+          max-height: 125px !important;
+          margin: auto;
+          height: auto !important;
+          width: 125px !important;
+          background-image: url(/2025/assets/images/logo-devpira.png);
+          background-size: cover;" alt="{% t labels.photo_of %} {{speaker.name}}">
+          </div>-->
+          <p><b>Tech In Rio</b></p>
+          <ul class="icons">
+              <li><a href="https://www.linkedin.com/company/tech-in-rio/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+              <li><a href="https://www.instagram.com/techinrio/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+              <!--<li><a href="{{ speaker.twitter }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+              <li><a href="{{ speaker.site }}" class="icon solid fas fa-link" target="_blank"><span class="label">Website</span></a></li>
+              <li><a href="{{ speaker.spotify }}" class="icon brands fa-spotify" target="_blank"><span class="label">Podcast</span></a></li>-->
+          </ul>
+        </div>
+      </div>
+      <div>
+          <h3>Agilidade</h3>
+
+       <div class="profiles session-speakers community">
+
+        <div class="profile">
+          <div  class="image-keynotes">
+            <img style="max-width: 175px !important;
+          max-height: 175px !important;
+          border-radius: 0% !important;" class="image-speaker" src="/2025/assets/images/agile-rio-petro.jpg"/>
+          </div>
+          <!--<div class="image-keynotes" style="max-width: 125px !important;
+          max-height: 125px !important;
+          margin: auto;
+          height: auto !important;
+          width: 125px !important;
+          background-image: url(/2025/assets/images/logo-devpira.png);
+          background-size: cover;" alt="{% t labels.photo_of %} {{speaker.name}}">
+          </div>-->
+          <p><b>Agile Rio Preto & Região</b></p>
+          <ul class="icons">
+              <li><a href="https://www.linkedin.com/company/agile-rio-preto-regi%C3%A3o" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+              <li><a href="https://www.instagram.com/agileriopreto/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+              <!--<li><a href="{{ speaker.twitter }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+              <li><a href="{{ speaker.site }}" class="icon solid fas fa-link" target="_blank"><span class="label">Website</span></a></li>
+              <li><a href="{{ speaker.spotify }}" class="icon brands fa-spotify" target="_blank"><span class="label">Podcast</span></a></li>-->
+          </ul>
+        </div>
+
+        <div class="profile">
+          <div  class="image-keynotes">
+            <img style="max-width: 175px !important;
+          max-height: 175px !important;
+          border-radius: 0% !important;" class="image-speaker" src="/2025/assets/images/sponsor-agile-pipoca-agil.png"/>
+          </div>
+          <!--<div class="image-keynotes" style="max-width: 125px !important;
+          max-height: 125px !important;
+          margin: auto;
+          height: auto !important;
+          width: 125px !important;
+          background-image: url(/2025/assets/images/logo-devpira.png);
+          background-size: cover;" alt="{% t labels.photo_of %} {{speaker.name}}">
+          </div>-->
+          <p><b>Pipoca Ágil</b></p>
+          <ul class="icons">
+              <li><a href="https://www.linkedin.com/company/pipoca-%C3%A1gil/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+              <!--<li><a href="https://www.instagram.com/agileriopreto/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+              <li><a href="{{ speaker.twitter }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+              <li><a href="{{ speaker.site }}" class="icon solid fas fa-link" target="_blank"><span class="label">Website</span></a></li>
+              <li><a href="{{ speaker.spotify }}" class="icon brands fa-spotify" target="_blank"><span class="label">Podcast</span></a></li>-->
+          </ul>
+        </div>
+
+        <div class="profile">
+          <div  class="image-keynotes">
+            <img style="max-width: 175px !important;
+          max-height: 175px !important;
+          border-radius: 0% !important;" class="image-speaker" src="/2025/assets/images/sampa-agil.png"/>
+          </div>
+          <!--<div class="image-keynotes" style="max-width: 125px !important;
+          max-height: 125px !important;
+          margin: auto;
+          height: auto !important;
+          width: 125px !important;
+          background-image: url(/2025/assets/images/logo-devpira.png);
+          background-size: cover;" alt="{% t labels.photo_of %} {{speaker.name}}">
+          </div>-->
+          <p><b>WaveAgile</b></p>
+          <ul class="icons">
+              <li><a href="https://www.linkedin.com/company/waveagile/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+              <li><a href="https://www.instagram.com/waveagile/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+              <!--<li><a href="{{ speaker.twitter }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+              <li><a href="{{ speaker.site }}" class="icon solid fas fa-link" target="_blank"><span class="label">Website</span></a></li>
+              <li><a href="{{ speaker.spotify }}" class="icon brands fa-spotify" target="_blank"><span class="label">Podcast</span></a></li>-->
+          </ul>
+        </div>
+      </div>
+      </div>
     </div>
   </div>
 </div>

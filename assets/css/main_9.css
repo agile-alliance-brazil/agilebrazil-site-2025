@@ -119,6 +119,10 @@ section, summary, time, mark, audio, video {
 -------------------------------- Palestrantes --------------------------
 ------------------------------------------------------------------------
 */
+.community .image-keynotes{
+	height: 175px !important;
+    align-content: center;
+}
 
 .image-speaker{
 	max-width: 125px !important;
