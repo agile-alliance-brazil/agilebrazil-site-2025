@@ -18,10 +18,10 @@
   url: https://br.k21.global/
   level: prata
 
-#- name: Suzano
-#  logo: /assets/images/sponsors/sponsor-logo-suzano.png
-#  url: https://www.suzano.com.br
-#  level: bronze
+- name: Gino Terentim
+  logo: /assets/images/sponsors/ginoterentim.png
+  url: https://ginoterentim.com/
+  level: bronze
 
 #- name: Bain & company
 #  logo: /assets/images/sponsors/sponsor-bain.png
