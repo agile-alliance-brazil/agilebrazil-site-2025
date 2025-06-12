@@ -24,9 +24,10 @@
   level: bronze
 
 - name: Jera
-  logo: /assets/images/sponsors/jera.svg
+  logo: /assets/images/sponsors/jera.png
   url: https://jera.com.br/
   level: bronze
+
 #- name: Bain & company
 #  logo: /assets/images/sponsors/sponsor-bain.png
 #  url: https://www.bain.com/pt-br/
