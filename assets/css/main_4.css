@@ -3670,6 +3670,7 @@ input, select, textarea {
 				}
 .profile .image-keynotes img {
 	height: 350px;
+	border-radius: 50px;
 }
 
 .profiles .regular-call-text{
