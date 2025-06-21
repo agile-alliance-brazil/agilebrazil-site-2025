@@ -136,7 +136,7 @@ section, summary, time, mark, audio, video {
 }
 
 ul.icons.hastag {
-	margin-bottom: 5px !important;
+	margin: 10px !important;
 }
 
 .hastag-speakers {
