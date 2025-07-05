@@ -34,17 +34,10 @@
 			$(".full-screen #"+indexHour).html(hour);
 			$(".response-version-screen #"+indexHourWks).html(hourWks);
 		};
-		
-		if (day == 31) {
-			$("#identificacao-1640-0").css('display', 'none');
-			$("#identificacao-1640").css('display', 'none');
-			$("#identificacao-1730-0").css('display', 'none');
-			$("#identificacao-1730").css('display', 'none');
-		}
 	}
 
 	window.popupProgram = function (day, id, posicao) {
-		console.log(window.dataProgramPopup[day][id][posicao - 1], $(".backgroud-modal"));
+
 		var dados = window.dataProgramPopup[day][id][posicao - 1];
 		if (posicao == 1) {
 			$("#conteudo-popup-programacao").html(`
@@ -97,13 +90,10 @@
 			// url: 'https://docs.google.com/spreadsheets/d/1P1qYsxAniUVvVpS40mO271Oa3WO_GvMqYwcoSsXcmtM/gviz/tq?tqx=out:json',
 			crossDomain:true,
 			success: function(responseText){
-				console.log(responseText, '............');
 
 				responseJSON = JSON.parse(
 					responseText.slice(47, -2)
 				);
-
-				console.log(responseJSON, '-------------');
 
 				var rowsArray = [];
 				responseJSON.table.rows.forEach(function(row){
@@ -111,7 +101,6 @@
 					row.c.forEach(function(prop){ if (prop !== null) { rowArray.push(prop.v); } else {rowArray.push(null);} });
 					rowsArray.push(rowArray);
 				});
-				console.log(rowsArray, '********');
 
 				window.dataProgram = {};
 				window.dataHourProgram = {};
@@ -121,8 +110,7 @@
 						window.dataProgram[row[0]] = [];
 						window.dataProgramPopup[row[0]] = [];
 						window.dataHourProgram[row[0]] = [];
-					} 
-					console.log(row[1]);
+					}
 					arrayIdHour = row[1].split('-');
 					if (row[6] == "Workshop") {
 						window.dataHourProgram[row[0]][arrayIdHour[0]+'-'+arrayIdHour[1]+'-wks'] = row[2];
@@ -147,7 +135,7 @@
 								{
 								},
 								{
-									autor: row[8],
+									autor: row[8] ?? '',
 									miniBiografia: row[10],
 									foto: row[9],
 									linkedin: row[11] ?? false
@@ -181,7 +169,7 @@
 									descricao: row[7]
 								},
 								{
-									autor: row[8],
+									autor: row[8] ?? '-',
 									miniBiografia: row[10],
 									foto: row[9],
 									linkedin: row[11] ?? false
@@ -218,7 +206,7 @@
 										descricao: row[7]
 									},
 									{
-										autor: row[8],
+										autor: row[8] ?? '',
 										miniBiografia: row[10],
 										foto: row[9],
 										linkedin: row[11] ?? false
