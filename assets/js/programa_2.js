@@ -139,7 +139,7 @@
 							window.dataProgram[row[0]][row[1]] = '<div class="activity full-space card-program">'+row[3]+'</div>';
 							break;
 						case "Encerramento": 
-							window.dataProgram[row[0]][row[1]] = '<div class="activity full-space card-program"><div style="margin-top: 25px;font-weight: bold;font-size: 18px;">'+row[3]+'</div></div>';
+							window.dataProgram[row[0]][row[1]] = '<div class="activity full-space card-program"><div style="font-weight: bold;font-size: 18px;">'+row[3]+'</div></div>';
 							break;
 						case "Keynote":
 							window.dataProgramPopup[row[0]][row[1]] = [
@@ -207,6 +207,7 @@
 							</div>`;
 							break;
 						case "Geral":
+						case "TBD":
 						case "Pitch":
 							if (row[10]){
 								window.dataProgramPopup[row[0]][row[1]] = [
