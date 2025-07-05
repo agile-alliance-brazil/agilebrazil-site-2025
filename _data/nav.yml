@@ -10,8 +10,8 @@
 
 - name: nav.program
   namespace: program
-  production: false
-  visible: false
+  production: true
+  visible: true
 
 - name: nav.sponsorship
   namespace: sponsorship

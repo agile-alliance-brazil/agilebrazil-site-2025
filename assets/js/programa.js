@@ -5,13 +5,11 @@
 
 	window.program = function (day){
 		window.initProgram = 1;	
-		$("#program-30").css('background-color', '#063676');
-		$("#program-31").css('background-color', '#063676');
-		$("#program-1").css('background-color', '#063676');
+		$("#program-18").css('background-color', '#063676');
+		$("#program-19").css('background-color', '#063676');
 
-		$("#estrutura-30").css('display', 'none');
-		$("#estrutura-31").css('display', 'none');
-		$("#estrutura-1").css('display', 'none');
+		$("#estrutura-18").css('display', 'none');
+		$("#estrutura-19").css('display', 'none');
 
 		$("#estrutura-"+day).css('display', 'block');
 		$("#program-"+day).css('background-color', '#147332');
@@ -94,20 +92,25 @@
 	window.iniciarProgramacao = function (atualizar) {
 		$.ajax({
 			type: 'GET',
-			url: "https://docs.google.com/spreadsheets/d/1P1qYsxAniUVvVpS40mO271Oa3WO_GvMqYwcoSsXcmtM/gviz/tq?tqx=out:json",
+			url: "https://docs.google.com/spreadsheets/d/1alFVqB-Kzm3xYtnlHZXq2iWPFcnR62qoCXx4veoDbzg/gviz/tq?tqx=out:json",
 			// url: 'https://docs.google.com/spreadsheets/d/1P1qYsxAniUVvVpS40mO271Oa3WO_GvMqYwcoSsXcmtM/gviz/tq?tqx=out:json',
 			crossDomain:true,
 			success: function(responseText){
+				console.log(responseText, '............');
+
 				responseJSON = JSON.parse(
 					responseText.slice(47, -2)
 				);
-				
+
+				console.log(responseJSON, '-------------');
+
 				var rowsArray = [];
 				responseJSON.table.rows.forEach(function(row){
 					var rowArray = [];
 					row.c.forEach(function(prop){ if (prop !== null) { rowArray.push(prop.v); } else {rowArray.push(null);} });
 					rowsArray.push(rowArray);
 				});
+				console.log(rowsArray, '********');
 
 				window.dataProgram = {};
 				window.dataHourProgram = {};
@@ -159,19 +162,13 @@
 						case "Workshop":
 							var classCss = '';
 							switch (row[4]) {
-								case "Produtos e Foco no Cliente" :
-									classCss = 'cliente';
-									break;
-								case "Liderança e Agilidade Estratégica" :
+								case "Design e Gestão de Produtos e Projetos" :
 									classCss = 'lideranca';
 									break;
-								case "Futuro da Agilidade" :
-									classCss = 'futuro';
-									break;
-								case "Raízes da Agilidade" :
+								case "Eficiência, Inovação e Transformação Digital" :
 									classCss = 'raizes';
 									break;
-								case "Métricas e Inteligência com Dados" :
+								case "Liderança, Estratégia e Gestão da Mudança" :
 									classCss = 'metrica';
 									break;
 
@@ -225,7 +222,7 @@
 										linkedin: row[11] ?? false
 									}
 								];
-								if (row[12]) {
+								if (row[12] && row[12] !== '-') {
 									window.dataProgramPopup[row[0]][row[1]].push(
 										{
 											autor: row[12],
@@ -253,7 +250,7 @@
 					}
 
 				});
-				window.program(30);
+				window.program(18);
 				$("#loading-atualizar").css('display', 'none');
 				
 			},
