@@ -92,7 +92,8 @@
 	window.iniciarProgramacao = function (atualizar) {
 		$.ajax({
 			type: 'GET',
-			url: "https://docs.google.com/spreadsheets/d/1alFVqB-Kzm3xYtnlHZXq2iWPFcnR62qoCXx4veoDbzg/gviz/tq?tqx=out:json",
+			url: "https://agileminas.com.br/chamada_agile_brazil_2025.php?atualizar="+atualizar,
+			// url: "https://docs.google.com/spreadsheets/d/1alFVqB-Kzm3xYtnlHZXq2iWPFcnR62qoCXx4veoDbzg/gviz/tq?tqx=out:json",
 			// url: 'https://docs.google.com/spreadsheets/d/1P1qYsxAniUVvVpS40mO271Oa3WO_GvMqYwcoSsXcmtM/gviz/tq?tqx=out:json',
 			crossDomain:true,
 			success: function(responseText){
