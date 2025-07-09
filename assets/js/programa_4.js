@@ -44,6 +44,7 @@
 				<div class="profile">
 					<p><b>` + dados.title + `</b></p>
 					<p>` + dados.descricao + `</p>
+					` + ( dados.lotacao ? `<p>Capacidade: ` + dados.lotacao + ` pessoas</p>` : '') + `
 				</div>
 			`);
 
@@ -166,7 +167,8 @@
 								{
 									title: row[3],
 									trilha: row[4],
-									descricao: row[7]
+									descricao: row[7],
+									lotacao: row[16] ?? false
 								},
 								{
 									autor: row[8] ?? '-',
