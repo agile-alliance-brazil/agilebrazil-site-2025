@@ -62,7 +62,7 @@
 					background-size: cover;" alt="` + dados.autor + `">
 					</div>
 					<p><b>` + dados.autor + `</b></p>
-					<p style="text-align: justify;">` + ( dados.miniBiografia != null ? dados.miniBiografia : '' ) + `</p>
+					<p style="text-align: center;">` + ( dados.miniBiografia != null ? dados.miniBiografia : '' ) + `</p>
 					<ul style="margin: 0" class="icons">
 						` +  (dados.linkedin ? `<li><a href="` + dados.linkedin + `" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li> ` : '') + `
 						<!-- <li><a href="{{ speaker.twitter }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
