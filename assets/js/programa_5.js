@@ -49,9 +49,10 @@
 			`);
 
 		} else {
+			dados.foto = dados.foto.indexOf('drive.google.com') ? dados.foto.replace('drive.google.com/open?id=', 'drive.google.com/uc?export=view&id=') : dados.foto;
 			$("#conteudo-popup-programacao").html(`
 				<div class="profile">
-					<div  style="display: none" class="image-keynotes">
+					<div class="image-keynotes">
 					<img class="image-speaker" src="` + dados.foto + `" alt="` + dados.autor + `" />
 					</div>
 					<div class="image-keynotes" style="width: 125px !important;
