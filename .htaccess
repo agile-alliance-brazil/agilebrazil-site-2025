@@ -4,9 +4,3 @@
   # And there is no trailing slash, rewrite to add the .html extension.
   RewriteRule [^/]$ %{REQUEST_URI}.html [QSA,L]
 </IfModule>
-<IfModule mod_headers.c>
-    Header set Access-Control-Allow-Origin "*"
-    # Or for all: Header set Access-Control-Allow-Origin "*"
-    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
-    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
-</IfModule>
