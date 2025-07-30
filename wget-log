@@ -1,0 +1,6 @@
+--2025-07-25 23:12:28--  https://drive.google.com/uc?export=view
+Resolving drive.google.com (drive.google.com)... 2800:3f0:4001:845::200e, 172.217.28.174
+Connecting to drive.google.com (drive.google.com)|2800:3f0:4001:845::200e|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2025-07-25 23:12:28 ERROR 400: Bad Request.
+
