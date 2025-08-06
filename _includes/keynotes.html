@@ -7,7 +7,9 @@
         </div>
         <p>{{ keynote.minibio }}</p>
         <ul class="icons">
-          <li><a href="{{ keynote.linkedin }}" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+          {% if keynote.linkedin %}
+            <li><a href="{{ keynote.linkedin }}" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+          {% endif %}
           {% if keynote.twitter %}
             <li><a href="{{ keynote.twitter }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
           {% endif %}

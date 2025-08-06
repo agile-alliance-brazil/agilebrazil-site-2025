@@ -361,6 +361,24 @@ ul.legend-trilha li {
 	max-width: 800px !important; 
 }
 
+.resolution-default {
+	display: inline-block !important;
+}
+
+.resolution-responsive {
+	display: none !important;
+}
+
+@media screen and (max-width: 720px) {
+	.resolution-default {
+		display: none !important;
+	}
+
+	.resolution-responsive {
+		display: inline-block !important;
+	}
+}
+
 @media screen and (max-width: 1000px) {
 	.modal-descricao-programacao {
 		max-width: 90% !important;
