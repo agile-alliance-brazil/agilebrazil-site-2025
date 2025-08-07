@@ -54,7 +54,7 @@ baseurl: "/2025" # the subpath of your site, e.g. /blog
 
 cotas:
   - title
-#  - diamante
+  - diamante
   - ouro
   - prata
   - bronze

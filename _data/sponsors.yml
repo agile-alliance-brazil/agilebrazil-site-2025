@@ -3,10 +3,10 @@
   url: https://www.scrumalliance.org
   level: title
 
-#- name: Thoughtworks
-#  logo: /assets/images/sponsors/sponsor-thoughtworks.png
-#  url: https://www.thoughtworks.com/pt-br
-#  level: diamante
+- name: Globo
+  logo: /assets/images/sponsors/globo.png
+  url: https://www.globo.com/
+  level: diamante
 
 - name: Businessmap
   logo: /assets/images/sponsors/sponsor-businessmap.png
