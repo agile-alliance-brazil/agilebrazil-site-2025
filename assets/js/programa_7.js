@@ -195,9 +195,11 @@
 								);
 							}
 							window.dataProgram[row[0]][row[1]] = `<div class="activity ` + classCss + ` card-program">
-								<p class="hashtag-trilha"> ` + row[4] + ` </p>
-								<div class="local-palestra"> ` + row[5] + ` </div>
-								<p class="title"> <div class="text-clicavel" onclick="popupProgram('` + row[0] + `', '` + row[1] + `', 1)"> ` + row[3] + ` </div> </p>
+								<p class="hashtag-trilha"> ` + row[4] + ` </p>`;
+							if (row[4]) {
+								window.dataProgram[row[0]][row[1]] += `<div class="local-palestra"> ` + row[5] + ` </div>`;
+							}
+							window.dataProgram[row[0]][row[1]] += `	<p class="title"> <div class="text-clicavel" onclick="popupProgram('` + row[0] + `', '` + row[1] + `', 1)"> ` + row[3] + ` </div> </p>
 								<div class="autor"> 
 									<div class="text-clicavel" onclick="popupProgram('` + row[0] + `', '` + row[1] + `', 2)"> ` + row[8] + ` </div>
 									` + ( row[12] ? ` & <div class="text-clicavel" onclick="popupProgram('` + row[0] + `', '` + row[1] + `', 3)"> ` + row[12] + ` </div>` : '' ) + `
