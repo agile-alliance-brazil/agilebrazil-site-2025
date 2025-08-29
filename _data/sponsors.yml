@@ -28,6 +28,16 @@
   url: https://jera.com.br/
   level: bronze
 
+- name: Beefor
+  logo: /assets/images/sponsors/beefor-logo-cor.svg
+  url: https://beefor.io/
+  level: bronze
+
+- name: Latam
+  logo: /assets/images/sponsors/LATAMAIRLINES.png
+  url: https://www.latamairlines.com/
+  level: diamante
+
 #- name: Bain & company
 #  logo: /assets/images/sponsors/sponsor-bain.png
 #  url: https://www.bain.com/pt-br/

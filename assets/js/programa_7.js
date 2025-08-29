@@ -153,6 +153,7 @@
 							break;
 						case "Palestra":
 						case "Workshop":
+						case "Comunidade":
 							var classCss = '';
 							switch (row[4]) {
 								case "Design e Gestão de Produtos e Projetos" :
@@ -163,6 +164,9 @@
 									break;
 								case "Liderança, Estratégia e Gestão da Mudança" :
 									classCss = 'metrica';
+									break;
+								case "Arena Comunidades" :
+									classCss = 'default';
 									break;
 
 							}
@@ -245,9 +249,26 @@
 					}
 
 				});
+				/*
+				window.dataProgram[18]['identificacao-1045-6'] = `<div class="activity default card-program">
+									<div class="local-palestra"> </div>
+									<p class="title"> <div class="text-clicavel">Onde o Ágil Deu Errado?</div> </p>
+									<div class="autor"> 
+										<div class="text-clicavel"> Ibson Cabral </div>
+									</div>
+								</div>`;
+
+				window.dataProgram[18]['identificacao-1155-6'] = `<div class="activity default card-program">
+									<div class="local-palestra"> </div>
+									<p class="title"> <div class="text-clicavel">Como podemos usar da melhor forma a IA para execução de projetos ágeis?</div> </p>
+									<div class="autor"> 
+										<div class="text-clicavel">CHRISTIAN MOURA DOS SANTOS</div>
+									</div>
+								</div>`;
+*/
 				window.program(18);
 				$("#loading-atualizar").css('display', 'none');
-				
+
 			},
 			error: function(result){
 				console.log('Error', result);
