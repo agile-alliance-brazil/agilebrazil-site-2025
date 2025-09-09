@@ -142,7 +142,7 @@
 									autor: row[8] ?? '',
 									miniBiografia: row[10],
 									foto: row[9],
-									linkedin: row[11] ?? false
+									linkedin: row[11] ? (row[11].indexOf('http') ? row[11] : 'https://' + row[11]) : false
 								}
 							];
 							window.dataProgram[row[0]][row[1]] = `<div class="activity full-space keynote card-program">
@@ -181,7 +181,7 @@
 									autor: row[8] ?? '-',
 									miniBiografia: row[10],
 									foto: row[9],
-									linkedin: row[11] ?? false
+									linkedin: row[11] ? (row[11].indexOf('http') ? row[11] : 'https://' + row[11]) : false
 								}
 							];
 							if (row[12]) {
@@ -190,7 +190,7 @@
 										autor: row[12],
 										miniBiografia: row[14],
 										foto: row[13],
-										linkedin: row[15] ?? false
+										linkedin: row[15] ? (row[11].indexOf('http') ? row[15] : 'https://' + row[15]) : false
 									}
 								);
 							}
@@ -220,7 +220,7 @@
 										autor: row[8] ?? '',
 										miniBiografia: row[10],
 										foto: row[9],
-										linkedin: row[11] ?? false
+										linkedin: row[11] ? (row[11].indexOf('http') ? row[11] : 'https://' + row[11]) : false
 									}
 								];
 								if (row[12] && row[12] !== '-') {
@@ -229,7 +229,7 @@
 											autor: row[12],
 											miniBiografia: row[14],
 											foto: row[13],
-											linkedin: row[15] ?? false
+											linkedin: row[15] ? (row[11].indexOf('http') ? row[15] : 'https://' + row[15]) : false
 										}
 									);
 								}
