@@ -154,7 +154,7 @@
 						case "Palestra":
 						case "Workshop":
 						case "Comunidade":
-							var classCss = '';
+							var classCss = 'default';
 							switch (row[4]) {
 								case "Design e Gestão de Produtos e Projetos" :
 									classCss = 'lideranca';
@@ -164,6 +164,9 @@
 									break;
 								case "Liderança, Estratégia e Gestão da Mudança" :
 									classCss = 'metrica';
+									break;
+								case "Painel Executivo" :
+									classCss = 'executivo';
 									break;
 								case "Arena Comunidades" :
 									classCss = 'default';
