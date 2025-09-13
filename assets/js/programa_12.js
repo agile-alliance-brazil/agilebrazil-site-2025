@@ -170,6 +170,9 @@
 									break;
 
 							}
+							if (row[7] == 'Painel Executivo') {
+								classCss = 'executivo';
+							}
 							window.dataProgramPopup[row[0]][row[1]] = [
 								{
 									title: row[3],

@@ -155,6 +155,10 @@ ul.icons.hastag {
 	background-color: #FFA505 !important;
 }
 
+.hastag-speakers.executivo {	
+	background-color: #D75413 !important;
+}
+
 .hastag-speakers.metrica {	
 	background-color: #004AAD !important;
 }
@@ -308,6 +312,10 @@ ul.icons.hastag {
 
 #program-intregration-v2 div.activity.lideranca, #program-intregration-v2 div.legend.lideranca {	
 	background-color: #FFA505 !important;
+}
+
+#program-intregration-v2 div.activity.executivo, #program-intregration-v2 div.legend.executivo {	
+	background-color: #D75413 !important;
 }
 
 #program-intregration-v2 div.activity.metrica, #program-intregration-v2 div.legend.metrica {	
